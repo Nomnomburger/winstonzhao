@@ -1,0 +1,29 @@
+{
+  "name": "winstonzhao",
+  "version": "1.0.0",
+  "description": "The web portfolio of Winston Zhao",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomnomburger/winstonzhao.git"
+  },
+  "keywords": [
+    "Winston",
+    "Zhao"
+  ],
+  "author": "Winston Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomnomburger/winstonzhao/issues"
+  },
+  "homepage": "https://github.com/Nomnomburger/winstonzhao#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  }
+}

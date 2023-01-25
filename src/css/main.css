@@ -1,0 +1,75 @@
+/*    FONTS   */
+
+@font-face {
+  font-family: "Rader";
+  font-style: normal;
+  src: url('../fonts/rader/regular/PPRader-Regular.woff2');
+  src: url('../fonts/rader/regular/PPRader-Regular.woff2') format('woff2'),
+       url('../fonts/rader/regular/PPRader-Regular.woff') format('woff'),
+       url('../fonts/rader/regular/PPRader-Regular.ttf') format('truetype'),
+       url('../fonts/rader/regular/PPRader-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: "Rader";
+  font-style: bold;
+  src: url('../fonts/rader/bold/PPRader-Bold.woff2');
+  src: url('../fonts/rader/bold/PPRader-Bold.woff2') format('woff2'),
+       url('../fonts/rader/bold/PPRader-Bold.woff') format('woff'),
+       url('../fonts/rader/bold/PPRader-Bold.ttf') format('truetype'),
+       url('../fonts/rader/bold/PPRader-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: "Rader";
+  font-style: hairline;
+  src: url('../fonts/rader/hairline/PPRader-Hairline.woff2');
+  src: url('../fonts/rader/hairline/PPRader-Hairline.woff2') format('woff2'),
+       url('../fonts/rader/hairline/PPRader-Hairline.woff') format('woff'),
+       url('../fonts/rader/hairline/PPRader-Hairline.ttf') format('truetype'),
+       url('../fonts/rader/hairline/PPRader-Hairline.otf') format('opentype');
+}
+@font-face {
+  font-family: "Rader";
+  font-style: medium;
+  src: url('../fonts/rader/medium/PPRader-Medium.woff2');
+  src: url('../fonts/rader/medium/PPRader-Medium.woff2') format('woff2'),
+       url('../fonts/rader/medium/PPRader-Medium.woff') format('woff'),
+       url('../fonts/rader/medium/PPRader-Medium.ttf') format('truetype'),
+       url('../fonts/rader/medium/PPRader-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: "Rader";
+  font-style: thin;
+  src: url('../fonts/rader/thin/PPRader-Thin.woff2');
+  src: url('../fonts/rader/thin/PPRader-Thin.woff2') format('woff2'),
+       url('../fonts/rader/thin/PPRader-Thin.woff') format('woff'),
+       url('../fonts/rader/thin/PPRader-Thin.ttf') format('truetype'),
+       url('../fonts/rader/thin/PPRader-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  font-style: normal;
+  src: url('../fonts/neuemontreal/regular/PPNeueMontreal-Regular.woff2');
+  src: url('../fonts/neuemontreal/regular/PPNeueMontreal-Regular.woff2') format('woff2'),
+       url('../fonts/neuemontreal/regular/PPNeueMontreal-Regular.woff') format('woff'),
+       url('../fonts/neuemontreal/regular/PPNeueMontreal-Regular.ttf') format('truetype'),
+       url('../fonts/neuemontreal/regular/PPNeueMontreal-Regular.otf') format('opentype');
+}
+
+
+/*    COLORS   */
+
+:root {
+  --lightgray: #2BC2C2;
+  --gray: #667979;
+}
+
+
+/*    GENERAL   */
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
