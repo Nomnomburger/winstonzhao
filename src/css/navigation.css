@@ -1,0 +1,33 @@
+.nav-buttons {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  padding: 2vh 2vw 0px 0px;
+
+
+  color: #000000;
+}
+
+.nav-link {
+  color: #000000;
+  margin-left: 6vw;
+  transition: 0.5s ease;
+}
+
+.nav-link:hover {
+  letter-spacing: 0.2em;
+  transition: 0.5s ease;
+}
+
+.nav-link:focus {
+  letter-spacing: 0.2em;
+  transition: 0.5s ease;
+}
+
+.nav-link:active {
+  letter-spacing: 0.2em;
+  transition: 0.5s ease;
+}

@@ -7,14 +7,97 @@
 
     <title>Winston Zhao</title>
     <meta name="description" content="My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!">
-    <link rel="icon" media="(prefers-color-scheme: dark)" href="img/logo/icon/25k-wob.ico">
-    <link rel="icon" media="(prefers-color-scheme: light)" href="img/logo/icon/25k-bow.ico">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/home.css">
     
 
 
   </head>
+
+  <body>
+
+    <div data-scroll-container>
+      <header class="navigationBar">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="material-symbols-sharp" id="menu-open" onclick="navigationSelect()">
+                menu
+              </i>
+              <span class="material-symbols-sharp active" id="menu-close" onclick="navigationSelect()">
+                close
+              </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav nav-buttons">
+                <li class="nav-item">
+                  <a class="nav-link hover-underline-animation" href="#portfolio" data-scroll-to>PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-underline-animation" href="#robotics" data-scroll-to>ROBOTICS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-underline-animation" href="#contact" data-scroll-to>@Z</a>
+                </li>
+              </ul>
+            </div>
+          </div> 
+        </nav>
+      </header>
+    </div>
+
+    <main>
+      
+      <img src="./img/initials.webp" alt="W.Z. initials" class="initials">
+
+      <div class="cover-shelf">
+        <div class="row c-shelf-row">
+          <div class="col-5 c-shelf-c1">
+
+            <h3 class="small-bold">Hello and welcome to my website!</h3>
+
+            <h2 class="thin-subhead">
+              Student<br>Designer<br>Programmer
+            </h2>
+
+            <p class="paragraph">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
+          
+          </div>
+          <div class="col-2 c-shelf-c2 other-subhead c-shelf-label"><span class="c-shelf-label-txt">25K Website</span></div>
+          <div class="col-2 c-shelf-c3 other-subhead c-shelf-label"><span class="c-shelf-label-txt">Elapse App</span></div>
+          <div class="col-2 c-shelf-c4 other-subhead c-shelf-label"><span class="c-shelf-label-txt">839 Website</span></div>
+          <div class="col-1 c-shelf-c5 other-subhead c-shelf-label">EXPLORE →</div>
+        </div>
+      </div>
+
+      <div class="c-title">
+        <div class="row">
+          <div class="col-6 c-name">
+            <h1 class="bold-head">
+              WINSTON<br>ZHAO
+            </h1>
+          </div>
+          <div class="col-6 c-age">
+            <span class="c-age-txt">.................</span>
+          </div>
+        </div>
+        
+        
+
+        
+
+        
+      </div>
+
+      
+
+      
+    </main>
+
+
+  </body>

@@ -1,7 +1,7 @@
 /*    FONTS   */
 
 @font-face {
-  font-family: "Rader";
+  font-family: "Rader-Regular";
   font-style: normal;
   src: url('../fonts/rader/regular/PPRader-Regular.woff2');
   src: url('../fonts/rader/regular/PPRader-Regular.woff2') format('woff2'),
@@ -10,7 +10,7 @@
        url('../fonts/rader/regular/PPRader-Regular.otf') format('opentype');
 }
 @font-face {
-  font-family: "Rader";
+  font-family: "Rader-Bold";
   font-style: bold;
   src: url('../fonts/rader/bold/PPRader-Bold.woff2');
   src: url('../fonts/rader/bold/PPRader-Bold.woff2') format('woff2'),
@@ -19,7 +19,7 @@
        url('../fonts/rader/bold/PPRader-Bold.otf') format('opentype');
 }
 @font-face {
-  font-family: "Rader";
+  font-family: "Rader-Hairline";
   font-style: hairline;
   src: url('../fonts/rader/hairline/PPRader-Hairline.woff2');
   src: url('../fonts/rader/hairline/PPRader-Hairline.woff2') format('woff2'),
@@ -28,7 +28,7 @@
        url('../fonts/rader/hairline/PPRader-Hairline.otf') format('opentype');
 }
 @font-face {
-  font-family: "Rader";
+  font-family: "Rader-Medium";
   font-style: medium;
   src: url('../fonts/rader/medium/PPRader-Medium.woff2');
   src: url('../fonts/rader/medium/PPRader-Medium.woff2') format('woff2'),
@@ -37,7 +37,7 @@
        url('../fonts/rader/medium/PPRader-Medium.otf') format('opentype');
 }
 @font-face {
-  font-family: "Rader";
+  font-family: "Rader-Thin";
   font-style: thin;
   src: url('../fonts/rader/thin/PPRader-Thin.woff2');
   src: url('../fonts/rader/thin/PPRader-Thin.woff2') format('woff2'),
@@ -60,8 +60,11 @@
 /*    COLORS   */
 
 :root {
+  --white: #FFFFFF;
+  --lightergray: #9bf0f0;
   --lightgray: #2BC2C2;
   --gray: #667979;
+  --black: #000000;
 }
 
 
@@ -72,4 +75,55 @@ html, body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+}
+
+
+.small-bold {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--black);
+}
+
+.thin-subhead {
+  font-family: 'Rader-Thin';
+  font-style: thin;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: var(--black);
+}
+
+.bold-head {
+  font-family: 'Rader-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10vw;
+  line-height: 90%;
+
+  color: var(--black);
+}
+
+.paragraph {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--gray);
+}
+
+.other-subhead {
+  font-family: 'Rader-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  
+
+  color: var(--lightgray);
 }

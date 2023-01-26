@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "The web portfolio of Winston Zhao",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "dev"
+    "dev": "parcel",
+    "prod": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
