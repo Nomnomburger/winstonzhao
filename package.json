@@ -5,7 +5,7 @@
   "main": "index.js",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel src/index.html",
     "prod": "parcel build src/index.html"
   },
   "repository": {
@@ -22,9 +22,6 @@
     "url": "https://github.com/Nomnomburger/winstonzhao/issues"
   },
   "homepage": "https://github.com/Nomnomburger/winstonzhao#readme",
-  "devDependencies": {
-    "parcel": "^2.8.3"
-  },
   "dependencies": {
     "imagesloaded": "^5.0.0",
     "locomotive-scroll": "^4.1.4"
