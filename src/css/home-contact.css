@@ -1,0 +1,31 @@
+.a-container {
+  height: 48vh;
+  margin: 0px 3vw 0px 3vw; 
+}
+
+.a-list-desc {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+
+  margin-left: 18px;
+
+  color: var(--gray);
+}
+
+.a-desc {
+  margin-top: 4vh;
+}
+
+.a-mail {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.a-mail-link {
+  text-decoration: none;
+  color: var(--lightgray);
+}
+.a-mail-link:hover {
+  color: var(--gray);
+}

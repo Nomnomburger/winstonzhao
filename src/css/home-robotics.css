@@ -1,0 +1,50 @@
+.r-container {
+  height: min-content;
+  margin: 0px 3vw 0px 3vw; 
+  padding-top: 6vh;
+}
+
+.r-row {
+  margin-bottom: 10vh;
+}
+
+.r-img-v {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.r-img-h {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.r-desc-big {
+  padding: 10vw;
+}
+
+.r-desc-small {
+  margin-top: 3vh;
+  padding-right: 6vw;
+}
+
+.r-list {
+  padding-right: 5vw;
+}
+
+.r-list-desc {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.r-btn {
+  float: left;
+  margin-top: 4vh;
+}
+
+.r-list-last {
+  padding-bottom: 6vh;
+  border-bottom: 2px solid var(--black);
+  margin-bottom: 0;
+}

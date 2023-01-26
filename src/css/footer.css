@@ -1,0 +1,72 @@
+.f-container {
+  margin: 0px 3vw 0px 3vw; 
+  height: calc(100%-48vh);
+  padding-bottom: 4vh;
+}
+
+.f-shelf {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 2px solid var(--black);
+}
+
+.f-shelf-row {
+  height: min-content;
+  width: 100%;
+}
+
+
+.f-shelf-c1 {
+  padding-right: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.f-shelf-c3 {
+  border-left: 2px solid var(--black);
+  margin-top: 40px;
+  transition: 0.5s ease;
+}
+.f-shelf-c3:hover {
+  background-color: var(--lightergray);
+  transition: 0.5s ease;
+}
+
+.f-shelf-c4 {
+  border-left: 2px solid var(--black);
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+.f-shelf-c4:hover {
+  background-color: var(--lightergray);
+  transition: 0.5s ease;
+}
+
+.f-shelf-label {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  writing-mode: vertical-lr;
+  padding: 0;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  padding-right: 0.5vw;
+  
+
+  color: var(--lightgray);
+  
+}
+
+.f-shelf-label:hover > .c-shelf-label-txt {
+  opacity: 100;
+  transition: 0.5s ease;
+}
+
+.f-initials {
+  height: 5vh;
+  width: auto;
+
+  margin-bottom: -15px;
+
+  
+}
