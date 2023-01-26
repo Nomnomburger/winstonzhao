@@ -72,7 +72,7 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden;
+  
   padding: 0;
   margin: 0;
 }
@@ -96,6 +96,15 @@ html, body {
   line-height: 60px;
 
   color: var(--black);
+}
+
+.bold-subhead {
+  font-family: 'Rader-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+
+  color: var(--gray);
 }
 
 .bold-head {
@@ -126,4 +135,68 @@ html, body {
   
 
   color: var(--lightgray);
+}
+
+.small-logo {
+  margin-top: 4px;
+  font-family: 'Rader-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* identical to box height */
+
+
+  color: var(--black)
+}
+
+
+
+.btn-icon {
+  float: right; 
+  padding-top: 1.5px;
+}
+
+
+btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+    border: 2px solid var(--lightgray);
+    background: none;
+    color: var(--black);
+}
+
+.btn-primary {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 0;
+  border: 2px solid var(--lightgray);
+  background: none;
+
+  color: var(--black);
+  width: 233px;
+  height: 47px;
+
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: left;
+
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+  border: 2px solid var(--lightgray);;
+  background: var(--lightergray);
+  color: var(--black);
+}
+.btn-primary:focus {
+  border: 2px solid var(--lightgray);
+  background: var(--lightgray);
+}
+.btn-primary:active {
+  border: 2px solid var(--lightgray);
+  background: var(--lightgray);
 }

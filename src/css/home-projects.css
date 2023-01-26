@@ -1,0 +1,26 @@
+.p-container {
+  height: min-content;
+  margin: 4vh 3vw 0px 3vw; 
+}
+
+.p-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.p-desc {
+  margin-top: 4vh;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid var(--black);
+}
+
+.p-year {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.p-btn {
+  float: right;
+}

@@ -9,11 +9,13 @@
     <meta name="description" content="My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home-projects.css">
+
+    <link rel="stylesheet" href="./css/base.css">
     
 
 
@@ -22,82 +24,149 @@
   <body>
 
     <div data-scroll-container>
-      <header class="navigationBar">
-        <nav class="navbar fixed-top navbar-expand-md navbar-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="material-symbols-sharp" id="menu-open" onclick="navigationSelect()">
-                menu
-              </i>
-              <span class="material-symbols-sharp active" id="menu-close" onclick="navigationSelect()">
-                close
-              </span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav nav-buttons">
-                <li class="nav-item">
-                  <a class="nav-link hover-underline-animation" href="#portfolio" data-scroll-to>PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hover-underline-animation" href="#robotics" data-scroll-to>ROBOTICS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hover-underline-animation" href="#contact" data-scroll-to>@Z</a>
-                </li>
-              </ul>
+      <div>
+        <header class="navigationBar">
+          <nav class="navbar fixed-top navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand small-logo nav-logo" href="#start" data-scroll-to>
+                WINSTON ZHAO
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="material-symbols-sharp" id="menu-open" onclick="navigationSelect()">
+                  menu
+                </i>
+                <span class="material-symbols-sharp active" id="menu-close" onclick="navigationSelect()">
+                  close
+                </span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav nav-buttons">
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline-animation" href="#portfolio" data-scroll-to>PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline-animation" href="#robotics" data-scroll-to>ROBOTICS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline-animation" href="#contact" data-scroll-to>@Z</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div> 
-        </nav>
-      </header>
+          </nav>
+        </header>
+      </div>
+
+
+      <main data-scroll-section>
+      
+        <img src="./img/initials.webp" alt="W.Z. initials" class="initials">
+        <div class="cover-shelf">
+          <div class="row c-shelf-row">
+            <div class="col-5 c-shelf-c1">
+              <h3 class="small-bold">Hello and welcome to my website!</h3>
+              <h2 class="thin-subhead">
+                Student<br>Designer<br>Programmer
+              </h2>
+              <p class="paragraph">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
+      
+            </div>
+            <div class="col-2 c-shelf-c2 other-subhead c-shelf-label"><a data-scroll-to href="#project1" class="c-shelf-label-txt">25K Website</a></div>
+            <div class="col-2 c-shelf-c3 other-subhead c-shelf-label"><a data-scroll-to href="#project2" class="c-shelf-label-txt">Elapse App</a></div>
+            <div class="col-2 c-shelf-c4 other-subhead c-shelf-label"><a data-scroll-to href="#project3" class="c-shelf-label-txt">839 Website</a></div>
+            <div class="col-1 c-shelf-c5 other-subhead c-shelf-label"><a data-scroll-to href="#portfolio" class="c-shelf-explore">EXPLORE →</a></div>
+          </div>
+        </div>
+        <div class="c-title">
+          <div class="row">
+            <div class="col-6 c-name">
+              <h1 class="bold-head">
+                WINSTON<br>ZHAO
+              </h1>
+            </div>
+            <div class="col-6 c-age">
+              <span class="c-age-txt">.................</span>
+            </div>
+          </div>
+        </div>
+        <div class="s-header" id="portfolio">
+          <div class="row">
+            <div class="col-7">
+              <h1 class="bold-head s-header-text">
+                PROJECTS
+              </h1>
+            </div>
+            <div class="col-5 s-decor-container">
+              <div class="s-decore-box">
+                <hr class="s-decor d-1">
+                <hr class="s-decor d-2">
+                <hr class="s-decor d-3">
+              </div>
+            </div>
+          </div>
+      
+        </div>
+        <section class="p-container" id="project1">
+          <img src="./img/demo.jpg" alt="Project Picture" class="p-img">
+          <div class="p-desc">
+            <div class="row">
+              <div class="col-8"><h2 class="bold-subhead">Team 25K Website</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2022</h3></div>
+            </div>
+            <div class="row">
+              <div class="col-6"><p class="paragraph">Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.</p></div>
+              <div class="col-6"><button data-scroll data-scroll-to class="btn btn-primary p-btn" href="#">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></button></div>
+            </div>
+      
+          </div>
+      
+        </section>
+        <section class="p-container" id="project2">
+          <img src="./img/demo2.jpg" alt="Project Picture" class="p-img">
+          <div class="p-desc">
+            <div class="row">
+              <div class="col-8"><h2 class="bold-subhead">Elapse VRC App</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2022</h3></div>
+            </div>
+            <div class="row">
+              <div class="col-6"><p class="paragraph">Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.</p></div>
+              <div class="col-6"><button data-scroll data-scroll-to class="btn btn-primary p-btn" href="#">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></button></div>
+            </div>
+      
+          </div>
+      
+        </section>
+        <section class="p-container" id="project3">
+          <img src="./img/demo3.jpg" alt="Project Picture" class="p-img">
+          <div class="p-desc">
+            <div class="row">
+              <div class="col-8"><h2 class="bold-subhead">Team 839 Website</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2021</h3></div>
+            </div>
+            <div class="row">
+              <div class="col-6"><p class="paragraph">Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.</p></div>
+              <div class="col-6"><button data-scroll data-scroll-to class="btn btn-primary p-btn" href="#">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></button></div>
+            </div>
+      
+          </div>
+      
+        </section>
+        <section>
+          <h2 class="thin-subhead">
+            More Projects
+          </h2>
+        </section>
+      
+      </main>
     </div>
 
-    <main>
-      
-      <img src="./img/initials.webp" alt="W.Z. initials" class="initials">
 
-      <div class="cover-shelf">
-        <div class="row c-shelf-row">
-          <div class="col-5 c-shelf-c1">
+    <script type="module" src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script async src="js/scrollObserve.js"></script>
 
-            <h3 class="small-bold">Hello and welcome to my website!</h3>
-
-            <h2 class="thin-subhead">
-              Student<br>Designer<br>Programmer
-            </h2>
-
-            <p class="paragraph">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
-          
-          </div>
-          <div class="col-2 c-shelf-c2 other-subhead c-shelf-label"><span class="c-shelf-label-txt">25K Website</span></div>
-          <div class="col-2 c-shelf-c3 other-subhead c-shelf-label"><span class="c-shelf-label-txt">Elapse App</span></div>
-          <div class="col-2 c-shelf-c4 other-subhead c-shelf-label"><span class="c-shelf-label-txt">839 Website</span></div>
-          <div class="col-1 c-shelf-c5 other-subhead c-shelf-label">EXPLORE →</div>
-        </div>
-      </div>
-
-      <div class="c-title">
-        <div class="row">
-          <div class="col-6 c-name">
-            <h1 class="bold-head">
-              WINSTON<br>ZHAO
-            </h1>
-          </div>
-          <div class="col-6 c-age">
-            <span class="c-age-txt">.................</span>
-          </div>
-        </div>
-        
-        
-
-        
-
-        
-      </div>
-
-      
-
-      
-    </main>
-
+    
 
   </body>
+
+</html>

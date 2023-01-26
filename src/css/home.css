@@ -114,10 +114,74 @@
 
 .c-shelf-label-txt {
   opacity: 0;
-  transition: 1s ease;
+  transition: 0.5s ease;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: var(--lightgray);
+}
+
+.c-shelf-explore {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: var(--lightgray);
 }
 
 .c-shelf-label:hover > .c-shelf-label-txt {
   opacity: 100;
-  transition: 1s ease;
+  transition: 0.5s ease;
+}
+
+
+
+.s-header {
+  padding: 7vw 0px 0px 0px;
+  margin: 0 3vw 0 3vw; 
+  border-bottom: 2px solid var(--black);
+}
+
+.s-header-text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.s-decor-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.s-decore-box {
+  width: 100%;
+}
+
+.s-decor {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--black);
+  color: var(--black);
+  height: 2px;
+  width: 100%;
+  opacity: 100%;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+
+  margin-left: auto;
+  margin-right: 0;
+}
+.d-1 {
+  width: 60%;
+}
+.d-2 {
+  width: 80%;
+}
+.d-3 {
+  width: 100%;
 }
