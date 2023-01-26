@@ -24,3 +24,7 @@
 .p-btn {
   float: right;
 }
+
+.p-list-row {
+  border-bottom: 2px solid var(--black);
+}
