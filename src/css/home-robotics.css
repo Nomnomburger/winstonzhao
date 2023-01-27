@@ -21,7 +21,14 @@
 }
 
 .r-desc-big {
-  padding: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.r-desc-big-container {
+  display: flex;
+  align-items: center; 
+  height: 80vh;
 }
 
 .r-desc-small {

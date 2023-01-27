@@ -82,7 +82,7 @@ html, body {
   font-family: 'NeueMontreal';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.7vh;
   line-height: 19px;
 
   color: var(--black);
@@ -92,8 +92,7 @@ html, body {
   font-family: 'Rader-Thin';
   font-style: thin;
   font-weight: 200;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 5vh;
 
   color: var(--black);
 }
@@ -111,17 +110,42 @@ html, body {
   font-family: 'Rader-Regular';
   font-style: normal;
   font-weight: 400;
-  font-size: 10vw;
+  font-size: 18vh;
   line-height: 90%;
 
   color: var(--black);
+}
+
+.project-head {
+  font-family: 'Rader-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18vh;
+  line-height: 55%;
+
+  color: var(--gray);
+
+  padding-top: 6vh;
+  padding-bottom: 0;
+}
+
+.project-link-thing {
+  font-family: 'Rader-Hairline';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12vh;
+  line-height: 90%;
+
+  color: var(--lightgray);
+
+  padding-top: 6vh;
 }
 
 .paragraph {
   font-family: 'NeueMontreal';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.7vh;
   line-height: 123%;
 
   color: var(--gray);
@@ -131,7 +155,7 @@ html, body {
   font-family: 'Rader-Bold';
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 4.8vh;
   
 
   color: var(--lightgray);
@@ -142,7 +166,7 @@ html, body {
   font-family: 'Rader-Bold';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6vh;
   /* identical to box height */
 
 
@@ -171,7 +195,7 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
   font-family: 'NeueMontreal';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4vh;
   border-radius: 0;
   border: 2px solid var(--lightgray);
   background: none;
@@ -185,6 +209,9 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
   text-align: left;
 
   transition: all 0.5s ease;
+
+  line-height: 28px;
+
 }
 
 .btn-primary:hover {
