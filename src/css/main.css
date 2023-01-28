@@ -121,11 +121,11 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 18vh;
-  line-height: 55%;
+  line-height: 90%;
 
   color: var(--gray);
 
-  padding-top: 6vh;
+  padding-top: 3vh;
   padding-bottom: 0;
 }
 

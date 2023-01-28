@@ -10,6 +10,10 @@
   border-bottom: 2px solid var(--black);
 }
 
+.pr-cover {
+  padding-top: 3vh;
+}
+
 .pr-btn {
   height: 75%;
   line-height: 50px;
@@ -30,6 +34,19 @@
   padding-right: 10vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+
+.pr-desc-double {
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.pr-double-container {
+  padding-bottom: 0vh;
+  margin-bottom: 0;
+  border-bottom: 2px solid var(--black);
 }
 
 .pr-desc-big-container {
@@ -63,4 +80,23 @@
   border-bottom: 2px solid var(--black);
   height: 96vh;
   padding-bottom: 6vh;
+}
+
+.pr-decor {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--black);
+  color: var(--black);
+  height: 2px;
+  width: 100%;
+  opacity: 100%;
+  padding-bottom: 0;
+  margin-top: 5vh;
+
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.pr-footer {
+  margin-top: 20vh;
 }
