@@ -36,13 +36,8 @@
             <a class="navbar-brand small-logo nav-logo" href="#start" data-scroll-to>
               WINSTON ZHAO
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="material-symbols-sharp" id="menu-open" onclick="navigationSelect()">
-                menu
-              </i>
-              <span class="material-symbols-sharp active" id="menu-close" onclick="navigationSelect()">
-                close
-              </span>
+            <button class="navbar-toggler nav-buttons-m" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              MENU
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav nav-buttons">
@@ -50,7 +45,7 @@
                   <a class="nav-link" href="#portfolio" data-scroll-to>PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#robotics" data-scroll-to>ABOUT</a>
+                  <a class="nav-link" href="#robotics" data-scroll-to>ROBOTICS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact" data-scroll-to>@Z</a>
@@ -67,22 +62,33 @@
       
         <div class="cover">
           <img src="./img/initials.webp" alt="W.Z. initials" class="initials">
-          <div class="cover-shelf">
+          <div class="cover-shelf c-mobile">
+            <div class="row g-0 mobile-display-t">
+              <div class="col-6 c-name">
+                <h1 class="bold-head">
+                  WINSTON<br>ZHAO
+                </h1>
+              </div>
+              <div class="col-6 c-age">
+                <span class="c-age-txt"><br>.................</span>
+              </div>
+            </div>
             <div class="row c-shelf-row g-0">
-              <div class="col-5 c-shelf-c1">
-                <h3 class="small-bold">Hello and welcome to my website!</h3>
+              <h3 class="small-bold mobile-display-t greeting-m">Hello and welcome to my website!</h3>
+              <div class="col-12 col-md-5 c-shelf-c1 order-5 order-md-1">
+                <h3 class="small-bold mobile-display-f">Hello and welcome to my website!</h3>
                 <h2 class="thin-subhead">
                   Student<br>Designer<br>Programmer
                 </h2>
-                <p class="paragraph">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
+                <p class="paragraph cover-desc">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
               </div>
-              <div class="col-2 c-shelf-c2 other-subhead c-shelf-label"><a data-scroll-to href="#project1" class="c-shelf-label-txt">Carbon Poster</a></div>
-              <div class="col-2 c-shelf-c3 other-subhead c-shelf-label"><a data-scroll-to href="#project2" class="c-shelf-label-txt">Vogue Cover</a></div>
-              <div class="col-2 c-shelf-c4 other-subhead c-shelf-label"><a data-scroll-to href="#project3" class="c-shelf-label-txt">Coraline Scene</a></div>
-              <div class="col-1 c-shelf-c5 other-subhead c-shelf-label"><a data-scroll-to href="#portfolio" class="c-shelf-explore">EXPLORE →</a></div>
+              <div class="col-4 col-md-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-md-2"><a data-scroll-to href="#project1" class="c-shelf-label-txt">25K Website</a></div>
+              <div class="col-4 col-md-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-md-3"><a data-scroll-to href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
+              <div class="col-4 col-md-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-md-4"><a data-scroll-to href="#project3" class="c-shelf-label-txt">839 Website</a></div>
+              <div class="col-12 col-md-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-md-5"><a data-scroll-to href="#portfolio" class="c-shelf-explore">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
             </div>
           </div>
-          <div class="c-title">
+          <div class="c-title mobile-display-f">
             <div class="row g-0">
               <div class="col-6 c-name">
                 <h1 class="bold-head">
@@ -117,45 +123,45 @@
 
 
         <section class="p-container" id="project1">
-          <img src="./img/portfolio/websitecarbon/websitecarbon-cover.png" alt="Project Picture" class="p-img">
+          <img src="./img/demo.jpg" alt="Project Picture" class="p-img">
           <div class="p-desc">
             <div class="row g-0">
-              <div class="col-8"><h2 class="bold-subhead">Website Carbon Poster</h2></div>
-              <div class="col-4"><h3 class="other-subhead p-year">Graphic Design</h3></div>
+              <div class="col-8"><h2 class="bold-subhead">Team 25K Website</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2022</h3></div>
             </div>
             <div class="row g-0">
-              <div class="col-6"><p class="paragraph">This poster promotes how everyone, especially developers, need to mindful on how much carbon their websites releases. The poster has a main message and also text for people to learn more about the issue. This poster was made in Adobe Illustrator and combines shapes with lines and text to create a simple but unique design.</p></div>
-              <div class="col-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/websitecarbon.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
+              <div class="col-12 col-md-6"><p class="paragraph">This poster promotes how everyone, especially developers, need to mindful on how much carbon their websites releases. The poster has a main message and also text for people to learn more about the issue. This poster was made in Adobe Illustrator and combines shapes with lines and text to create a simple but unique design.</p></div>
+              <div class="col-12 col-md-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/websitecarbon.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
             </div>
       
           </div>
       
         </section>
         <section class="p-container" id="project2">
-          <img src="./img/portfolio/vogue/Vogue.png" alt="Project Picture" class="p-img">
+          <img src="./img/demo2.jpg" alt="Project Picture" class="p-img">
           <div class="p-desc">
             <div class="row g-0">
-              <div class="col-8"><h2 class="bold-subhead">Vogue Magazine Cover</h2></div>
-              <div class="col-4"><h3 class="other-subhead p-year">Digital Publishing</h3></div>
+              <div class="col-8"><h2 class="bold-subhead">The Drive Team Podcast</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2022</h3></div>
             </div>
             <div class="row g-0">
-              <div class="col-6"><p class="paragraph">While Vogue is a fashion magazine, this poster bends the rules a bit and talks about digital design. It features a front and back cover with distinct graphics and two spreads. This poster was created using Photoshop, Illustrator, and Indesign.</p></div>
-              <div class="col-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/voguecover.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
+              <div class="col-12 col-md-6"><p class="paragraph">While Vogue is a fashion magazine, this poster bends the rules a bit and talks about digital design. It features a front and back cover with distinct graphics and two spreads. This poster was created using Photoshop, Illustrator, and Indesign.</p></div>
+              <div class="col-12 col-md-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/voguecover.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
             </div>
       
           </div>
       
         </section>
         <section class="p-container" id="project3">
-          <img src="./img/portfolio/coraline/Coraline.png" alt="Project Picture" class="p-img">
+          <img src="./img/demo3.jpg" alt="Project Picture" class="p-img">
           <div class="p-desc">
             <div class="row g-0">
-              <div class="col-8"><h2 class="bold-subhead">Coraline Scene Remake</h2></div>
-              <div class="col-4"><h3 class="other-subhead p-year">Video Production</h3></div>
+              <div class="col-8"><h2 class="bold-subhead">Team 839 Website</h2></div>
+              <div class="col-4"><h3 class="other-subhead p-year">2021</h3></div>
             </div>
             <div class="row g-0">
-              <div class="col-6"><p class="paragraph">Coraline is a movie that is comprised of stop motion animation camera shots. For our project, we took the “Deal” scene and recreated it in real life, using many camera angles and shooting techniques. After, we matched up the sounds and produced the video in Adobe Premiere Pro, adding audio clips with Adobe Audition and animations with Adobe Animate.</p></div>
-              <div class="col-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/coralineremake.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
+              <div class="col-12 col-md-6"><p class="paragraph">Coraline is a movie that is comprised of stop motion animation camera shots. For our project, we took the “Deal” scene and recreated it in real life, using many camera angles and shooting techniques. After, we matched up the sounds and produced the video in Adobe Premiere Pro, adding audio clips with Adobe Audition and animations with Adobe Animate.</p></div>
+              <div class="col-12 col-md-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/coralineremake.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
             </div>
       
           </div>
@@ -177,7 +183,7 @@
           <div class="row">
             <div class="col-7">
               <h1 class="bold-head s-header-text">
-                ABOUT
+                ROBOTICS
               </h1>
             </div>
             <div class="col-5 s-decor-container">
@@ -193,65 +199,62 @@
 
         <section class="r-container">
           <div class="row r-row g-0">
-            <div class="col-5">
+            <div class="col-12 col-md-5">
               <img src="./img/demo2.jpg" alt="Project Picture" class="r-img-v">
             </div>
-            <div class="col-7 r-desc-big-container">
+            <div class="col-12 col-md-7 r-desc-big-container">
               <div class="r-desc-big">
-                <h2 class="thin-subhead">
-                  Reflection
-                </h2>
                 <p class="paragraph">
-                  This is the reflection about my work. The best work in my portfolio is either the 25K website or the Elapse app design. The Team 25K website, while simple, is a close public representation of my current graphic design and web development skill level. It uses a wide variety of tools and techniques such as custom-made animations, smooth scrolling, responsive design, alignment, and colour theory. It also holds a special place in my heart as it is my own robotics team! The Elapse app design is another one of my recent best works as it is a large scale design covering many interfaces and interactions. While the app is still in development and the design is in the concept phase, I think that a good user interface is the basics for every good app, so it is very important here.
+                  My competitive robotics journey started back in 2018, with me joining Team Polaris and participating in the FIRST Lego League. The FIRST Lego League taught me many aspects of robotics and competition in general, such as programming algorithms, mechanical design, and keeping cool in high stress situations. In 2019, I moved to the VEX Robotics Competition on team 839 Caution Tape Robotics. VRC brought me deeper in the world of STEM and robotics, with the game being more challenging and the competition being fiercer. In a way, robotics has brought me to enjoy programming and design. In 2022 I moved to the new Silver Owl Robotics VRC team, 3150A. After having a successful stint at Silver Owl Robotics winning the 2022 Ontario Provincial Championship, I decided to create my own team for the new VRC season, Team 25K Robotics.
                   <br>
                   <br>
                   <br>
-                  Some areas where I can improve on is writing higher quality HTML and CSS, and also improving my JavaScript skills. These are the three main building blocks of creating great custom websites, and there is always more to learn. I hope to improve these skills by learning online and also I hope to attend the Awwwards conference in May to get a more hands-on learning experience with experts in the industry.
+                  In VRC, I learned the language of C++ and continue to develop my skills in that. As the head programmer on VRC Team 839A before, I managed our libraries of code for our robot. I collaborated with other programmers on Team 839A to solve problems and find new solutions to challenges we are presented to in VRC. On the team I also worked on CAD in Fusion 360, to design and manufacture new parts for the robot. I also got into a new field of marketing at 3150A, with video production and graphics creation. Now on Team 25K, I manage the team and also design parts for our robot.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="row r-row g-0">
-            <div class="col-4 r-list">
+            <div class="col-12 col-md-4 r-list">
               <h2 class="thin-subhead">
-                Inspiration
+                Experience
               </h2>
     
               <div class="row p-list-row g-0 p-list-row-first">
-                <div class="col-7 small-bold p-list-title"><a href="#">Tales From The Loop</a></div>
-                <div class="col-5 paragraph r-list-desc">Simon Stålenhag</div>
+                <div class="col-7 small-bold p-list-title"><a href="#">VRC Spin Up</a></div>
+                <div class="col-5 paragraph r-list-desc">Team 25K</div>
               </div>
               <div class="row p-list-row g-0">
-                <div class="col-7 small-bold p-list-title"><a href="#">Microsoft Future Vision</a></div>
-                <div class="col-5 paragraph r-list-desc">Tendril</div>
+                <div class="col-7 small-bold p-list-title"><a href="#">VRC Tipping Point</a></div>
+                <div class="col-5 paragraph r-list-desc">Team 3150A</div>
               </div>
               <div class="row p-list-row g-0">
-                <div class="col-7 small-bold p-list-title"><a href="#">Mirror Lake</a></div>
-                <div class="col-5 paragraph r-list-desc">Franklin Carmichael</div>
+                <div class="col-7 small-bold p-list-title"><a href="#">VRC Change Up</a></div>
+                <div class="col-5 paragraph r-list-desc">Team 839A</div>
               </div>
               <div class="row p-list-row g-0">
-                <div class="col-7 small-bold p-list-title"><a href="#">Letters From Sweden</a></div>
-                <div class="col-5 paragraph r-list-desc">Studio Taktil</div>
+                <div class="col-7 small-bold p-list-title"><a href="#">VRC Tower Takeover</a></div>
+                <div class="col-5 paragraph r-list-desc">Team 839Z</div>
               </div>
               <div class="row p-list-row g-0">
-                <div class="col-7 small-bold p-list-title"><a href="#">Cliff At Fecamp</a></div>
-                <div class="col-5 paragraph r-list-desc">Claude Monet</div>
+                <div class="col-7 small-bold p-list-title"><a href="#">FLL Into Orbit</a></div>
+                <div class="col-5 paragraph r-list-desc">Team Polaris</div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <img src="./img/demo.jpg" alt="Project Picture" class="r-img-h">
             </div>
           </div>
 
 
           <div class="row r-row g-0">
-            <div class="col-8 r-list">
+            <div class="col-12 col-md-8 r-list">
               <img src="./img/demo.jpg" alt="Project Picture" class="r-img-h">
               
             </div>
-            <div class="col-4">
-              <h2 class="bold-subhead">Post Secondary</h2>
+            <div class="col-12 col-md-4">
+              <h2 class="bold-subhead">Team 25K</h2>
     
               <p class="paragraph r-desc-small">
                 I am interested in pursuing a future in digital design or communication technology. There is a program of particular interest for me at the University of Toronto, Communication, Culture, Information & Technology (CCIT). This program will let me gain more knowledge behind media. For this program, grade 12 English is required as well as 6 other grade 12 courses. The average grade is mid to high 70s.
@@ -267,7 +270,7 @@
 
 
           <div class="row r-row r-list-last g-0">
-            <div class="col-7 r-desc-big-container">
+            <div class="col-12 col-md-7 r-desc-big-container">
               <div class="r-desc-big">
                 <h2 class="thin-subhead">
                   Reflection - cont.
@@ -281,7 +284,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-md-5">
               <img src="./img/demo2.jpg" alt="Project Picture" class="r-img-v">
             </div>
           </div>

@@ -38,12 +38,13 @@ nav {
 }
 
 .nav-scrolled {
-  padding: 0;
+  padding: 0 !important;
   background-color: var(--white);
   transition: 1s ease;
   border-bottom: 2px solid var(--black);
   margin-left: 2vw;
   margin-right: 2vw;
+  
 }
 
 .nav-scrolled-btn {
@@ -60,4 +61,47 @@ nav {
   opacity: 100%;
   transition: 1s ease;
   transition-delay: 2s;
+}
+
+.nav-buttons-m {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0;
+  margin-right: 20px;
+  margin-top: 5px;
+  transition: 1s ease;
+  
+  
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-scrolled {
+    background-color: var(--white);
+    transition: 1s ease;
+    border-bottom: 2px solid var(--black);
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .nav-scrolled > div > .nav-buttons-m {
+    margin-top: -11px;
+    transition: 1s ease;
+    margin-right: 0;
+  }
 }

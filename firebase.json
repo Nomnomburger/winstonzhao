@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "schoolwinstonzhao",
+    "site": "winstonzhao-website",
     "public": "dist",
     "ignore": [
       "firebase.json",

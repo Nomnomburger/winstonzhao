@@ -69,3 +69,20 @@
 .p-list-btn > a:hover {
   color: var(--gray);
 }
+
+@media screen and (max-width: 768px) {
+  .p-container {
+    margin: 0px 24px 0px 24px; 
+    padding-top: 20px;
+  }
+  .p-img {
+    height: 40vh;
+  }
+  .p-btn {
+    float: left;
+    margin-top: 40px;
+  }
+  .p-list-desc {
+    display: none;
+  }
+}

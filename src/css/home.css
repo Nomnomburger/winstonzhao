@@ -188,3 +188,80 @@
 .d-3 {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: min-content;
+  }
+  .initials {
+    height: 80px;
+    width: auto;
+    margin: 18px 18px 18px 18px;
+  }
+  .c-mobile {
+    padding-top: 58px;
+  }
+  .cover-shelf {
+    margin-right: 24px;
+    margin-left: 24px;
+    border-bottom: none;
+  }
+  .c-shelf-c1 {
+    padding-top: 38px;
+    padding-right: 0;
+  }
+  .c-shelf-c2 {
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+    float: left;
+    padding: 10px;
+  }
+  .c-shelf-c3 {
+    margin-top: 70px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+    float: left;
+    padding: 10px;
+  }
+  .c-shelf-c4 {
+    margin-top: 35px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+    float: left;
+    padding: 10px;
+  }
+  .c-shelf-c5 {
+    border-bottom: 2px solid var(--black);
+    border-top: 2px solid var(--black);
+    padding-bottom: 50px;
+    padding-top: 16px;
+    padding-right: 5px;
+  }
+  .c-age-txt {
+    font-size: 50px;
+  }
+  .c-shelf-label {
+    writing-mode: horizontal-tb;
+  }
+  .c-shelf-row {
+    padding-top: 14px;
+  }
+  .greeting-m {
+    margin-bottom: 42px;
+  }
+  .cover-desc {
+    margin-top: -10px;
+    padding: 0;
+  }
+  .s-decor-container {
+    display: none;
+  }
+  .s-header {
+    padding: 50px 0px 0px 0px;
+    margin: 0 24px 0 24px; 
+    border-bottom: 2px solid var(--black);
+  }
+}

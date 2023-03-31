@@ -227,3 +227,53 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
   border: 2px solid var(--lightgray);
   background: var(--lightgray);
 }
+
+.mobile-display-t {
+  display: none;
+}
+.mobile-display-f {
+  display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  .mobile-display-t {
+    display: flex;
+  }
+  .mobile-display-f {
+    display: none;
+  }
+  /* change font size for mobile */
+  .small-bold {
+    font-size: 15px;
+  }
+  .thin-subhead {
+    font-size: 30px;
+  }
+  .bold-subhead {
+    font-size: 40px;
+  }
+  .bold-head {
+    font-size: 50px;
+  }
+  .project-head {
+    font-size: 32px;
+  }
+  .project-link-thing {
+    font-size: 24px;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .other-subhead {
+    font-size: 30px;
+  }
+  .small-logo {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+  }
+  .btn-primary {
+    font-size: 14px;
+  }
+}
