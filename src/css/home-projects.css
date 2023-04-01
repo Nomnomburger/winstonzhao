@@ -80,9 +80,12 @@
   }
   .p-btn {
     float: left;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .p-list-desc {
     display: none;
+  }
+  .p-more {
+    padding-top: 40px;
   }
 }

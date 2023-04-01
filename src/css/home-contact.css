@@ -29,3 +29,21 @@
 .a-mail-link:hover {
   color: var(--gray);
 }
+
+@media screen and (max-width: 768px) {
+  .a-container {
+    height: min-content;
+    margin: 0px 24px 0px 24px; 
+  }
+  .a-list-desc {
+    display: none;
+  }
+  .a-desc {
+    margin-top: 40px;
+  }
+  .a-mail {
+    margin-top: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

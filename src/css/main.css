@@ -235,6 +235,13 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
   display: block;
 }
 
+.mobile-display-f-footer {
+  display: flex;
+}
+.mobile-display-t-footer {
+  display: none;
+}
+
 
 @media screen and (max-width: 768px) {
   .mobile-display-t {
@@ -243,6 +250,14 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
   .mobile-display-f {
     display: none;
   }
+  .mobile-display-f-footer {
+    display: none;
+  }
+  .mobile-display-t-footer {
+    display: flex;
+  }
+
+
   /* change font size for mobile */
   .small-bold {
     font-size: 15px;

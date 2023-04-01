@@ -70,3 +70,19 @@
 
   
 }
+
+@media screen and (max-width: 768px) {
+  .f-container {
+    margin: 100px 24px 0px 24px; 
+    height: min-content;
+    padding-bottom: 24px;
+  }
+  .f-shelf {
+    border-bottom: none;
+  }
+  .f-shelf-c1 {
+    padding-right: 0;
+    border-right: 2px solid var(--black);
+  }
+
+}
