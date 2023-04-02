@@ -181,7 +181,7 @@ html, body {
 }
 
 
-btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
 .btn-primary:active:focus:not(:disabled):not(.disabled),
 .btn:focus, .btn:active, .btn:hover{
     box-shadow: none!important;
@@ -272,10 +272,18 @@ btn-primary:hover,.btn-primary:focus,.btn-primary:active,
     font-size: 50px;
   }
   .project-head {
-    font-size: 32px;
+    font-size: 50px;
+    line-height: normal;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
   }
   .project-link-thing {
-    font-size: 24px;
+    font-size: 30px;
+    line-height: normal;
+    padding: 0;
+    padding-top: 60px;
+    margin: 0;
   }
   .paragraph {
     font-size: 15px;
