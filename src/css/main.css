@@ -77,6 +77,28 @@ html, body {
   margin: 0;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: all 1s ease;
+  transform: translateY(50px);
+  display: inline-block;
+}
+
+.fade-in-animate {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.char {
+  transform: translateY(19vh);
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.animate-txt {
+  clip-path: polygon(0 -10%, 100% -10%, 100% 100%, 0% 100%);
+}
+
 
 .small-bold {
   font-family: 'NeueMontreal';
@@ -114,6 +136,7 @@ html, body {
   line-height: 90%;
 
   color: var(--black);
+  
 }
 
 .project-head {
@@ -244,6 +267,10 @@ html, body {
 
 
 @media screen and (max-width: 768px) {
+  .char {
+    transform: translateY(50px);
+  }
+
   .mobile-display-t {
     display: flex;
   }

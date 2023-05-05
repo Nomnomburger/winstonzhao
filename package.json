@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/Nomnomburger/winstonzhao#readme",
   "dependencies": {
+    "gsap": "^3.11.5",
     "imagesloaded": "^5.0.0",
-    "locomotive-scroll": "^4.1.4"
+    "locomotive-scroll": "^4.1.4",
+    "split-type": "^0.3.3"
   }
 }

@@ -1,46 +1,31 @@
 import { scroll } from './index.js';
+import { gsap } from 'gsap';
+import SplitType from "split-type";
 
-//  functions for animating text
+scroll.on('call', () => {
+    let animationText = new SplitType('.animate');
 
-//console.log("textAnimate.js loaded");
+    console.log(animationText)
 
+    let animateSection = document.querySelector('.animate');
 
-scroll.on('call', func => {
-  var countAnimate = document.querySelectorAll('.textAnimate.is-inview').length;
-  //console.log("countAnimate:" + countAnimate);
-  //console.log("textAnimate.js called");
+    console.log("Animation Section");
+    console.log(animateSection)
 
-  for(let i = 0; i < countAnimate; i++){
-    const text = document.querySelectorAll('.textAnimate.is-inview')[i];
-  
-    //console.log(text);
-  
-    const strText = text.textContent;
-    const splitText = strText.split(" ");
-  
-    //console.log(strText);
-    //console.log(i);
-  
-    let char = 0;
-    let timer = setInterval(onTick, 100);
-  
-    function onTick(){
-        const span = text.querySelectorAll('span')[char];
-        span.classList.add('fade-in-animate');
-        
-        char++;
-        if(char === splitText.length){
-            complete();
-            return;
-        }
-    }
-  
-    function complete(){
-        clearInterval(timer);
-        timer = null;
-    }
-  }
-});
+    gsap.to(animationText.chars, {
+        y:0,
+        stagger: 0.05,
+        duration: 0.1,
+        opacity: 100,
+        onStart: function () {
+            console.log("Animation Finished");
+            //animateSection.classList.remove('animate-txt');
+            animateSection.classList.remove('animate');
+
+            console.log(animateSection);
+        },
+    })
+
+})
 
 
-//console.log("test");
