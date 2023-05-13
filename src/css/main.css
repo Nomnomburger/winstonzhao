@@ -84,13 +84,23 @@ html, body {
 .fade-in {
   opacity: 0;
   transition: all 1s ease;
-  transform: translateY(20px);
+  transform: translateY(10px);
   display: inline-block;
 }
 
 .fade-in.is-inview {
   opacity: 1;
   transform: translateY(0px);
+}
+
+.just-fade > div {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.just-fade.is-inview > div {
+  opacity: 1;
+  transition-delay: 600ms;
 }
 
 .char {
@@ -334,6 +344,31 @@ html, body {
 }
 
 
+
+@media screen and (min-width: 769px) {
+  .aBorder-c-shelf-c5 {
+    position: relative;
+    border: none;
+  }
+
+  .aBorder-c-shelf-c5::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0%;
+    background-color: var(--black);
+    transition: height 2s ease;
+  }
+
+  .aBorder-c-shelf-c5.is-inview::after {
+    height: 100%;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .char {
     transform: translateY(50px);
@@ -393,5 +428,44 @@ html, body {
   }
   .btn-primary {
     font-size: 14px;
+  }
+
+
+  .aBorder-c-shelf-c5 {
+    position: relative;
+    border: none;
+  }
+
+  .aBorder-c-shelf-c5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--black);
+    transition: width 2s ease-in-out;
+  }
+
+  .aBorder-c-shelf-c5.is-inview::before {
+    width: 100%;
+  }
+
+  .aBorder-c-shelf-c5::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--black);
+    transition: width 2s ease-in-out;
+
+  }
+
+  .aBorder-c-shelf-c5.is-inview::after {
+    width: 100%;
+    transition-delay: 0.2s;
+
   }
 }

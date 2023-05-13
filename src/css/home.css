@@ -113,13 +113,21 @@
 }
 
 .c-d-1 {
-  transition-delay: 2s;
+  transition-delay: 1.8s;
 }
 .c-d-2 {
-  transition-delay: 2.4s;
+  transition-delay: 2.8s;
 }
 .c-d-3 {
-  transition-delay: 2.8s;
+  transition-delay: 3.2s;
+}
+
+.c-d-4 {
+  transition-delay: 3.6s;
+}
+
+.c-d-5 {
+  transition-delay: 4.4s;
 }
 
 .c-shelf-label {
@@ -261,11 +269,12 @@
     padding: 10px;
   }
   .c-shelf-c5 {
-    border-bottom: 2px solid var(--black);
-    border-top: 2px solid var(--black);
     padding-bottom: 50px;
     padding-top: 16px;
     padding-right: 5px;
+  }
+  .c-shelf-c5:after {
+    transition-delay: 0s;
   }
   .c-age-txt {
     font-size: 50px;
