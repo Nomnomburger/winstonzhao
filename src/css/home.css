@@ -13,8 +13,9 @@
   margin-top: -5vh;
   margin-right: 3vw;
   margin-left: 3vw;
-  border-bottom: 2px solid var(--black);
+  border: none;
 }
+
 .c-shelf-row {
   height: min-content;
   width: 100%;
@@ -35,16 +36,17 @@
 }
 
 .c-shelf-c2 {
-  border-left: 2px solid var(--black);
   transition: 0.5s ease;
 }
 .c-shelf-c2:hover {
   background-color: var(--lightergray);
   transition: 0.5s ease;
 }
+.c-shelf-c2:after {
+  transition-delay: 1s;
+}
 
 .c-shelf-c3 {
-  border-left: 2px solid var(--black);
   margin-top: 115px;
   transition: 0.5s ease;
 }
@@ -52,9 +54,11 @@
   background-color: var(--lightergray);
   transition: 0.5s ease;
 }
+.c-shelf-c3:after {
+  transition-delay: 1.2s;
+}
 
 .c-shelf-c4 {
-  border-left: 2px solid var(--black);
   margin-top: 72px;
   transition: 0.5s ease;
 }
@@ -62,9 +66,11 @@
   background-color: var(--lightergray);
   transition: 0.5s ease;
 }
+.c-shelf-c4:after {
+  transition-delay: 1.4s;
+}
 
 .c-shelf-c5 {
-  border-left: 2px solid var(--black);
   transition: 0.5s ease;
   padding-bottom: 80px;
 }
@@ -72,12 +78,17 @@
   background-color: var(--lightergray);
   transition: 0.5s ease;
 }
+.c-shelf-c5:after {
+  transition-delay: 1.6s;
+}
 
 
 .c-title {
   padding: 2.7vw 0px 0px 0px;
-  margin: 0 3vw 0 3vw; 
-  border-bottom: 2px solid var(--black);
+  margin: 0 3vw 0 3vw;
+}
+.c-title:after {
+  transition-delay: 0.2s;
 }
 
 .c-name {
@@ -99,6 +110,16 @@
   justify-content: right;
 
   color: var(--lightgray);
+}
+
+.c-d-1 {
+  transition-delay: 2s;
+}
+.c-d-2 {
+  transition-delay: 2.4s;
+}
+.c-d-3 {
+  transition-delay: 2.8s;
 }
 
 .c-shelf-label {
@@ -146,7 +167,7 @@
 
 .s-header {
   padding: 7vw 0px 0px 0px;
-  margin: 0 3vw 0 3vw; 
+  margin: 0 3vw 0 3vw;
   border-bottom: 2px solid var(--black);
 }
 
@@ -171,7 +192,7 @@
   background-color: var(--black);
   color: var(--black);
   height: 2px;
-  width: 100%;
+  width: 0%;
   opacity: 100%;
   padding-bottom: 0;
   margin-bottom: 5vh;
@@ -179,14 +200,20 @@
   margin-left: auto;
   margin-right: 0;
 }
-.d-1 {
+
+.s-decore-box.is-inview > .d-1 {
   width: 60%;
+  transition: width 2s ease;
 }
-.d-2 {
+.s-decore-box.is-inview > .d-2 {
   width: 80%;
+  transition: width 2s ease;
+  transition-delay: 0.2s;
 }
-.d-3 {
+.s-decore-box.is-inview > .d-3 {
   width: 100%;
+  transition: width 2s ease;
+  transition-delay: 0.4s;
 }
 
 @media screen and (max-width: 768px) {

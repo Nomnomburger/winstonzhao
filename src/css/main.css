@@ -77,14 +77,18 @@ html, body {
   margin: 0;
 }
 
+.site {
+  display: none;
+}
+
 .fade-in {
   opacity: 0;
   transition: all 1s ease;
-  transform: translateY(50px);
+  transform: translateY(20px);
   display: inline-block;
 }
 
-.fade-in-animate {
+.fade-in.is-inview {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -263,6 +267,66 @@ html, body {
 }
 .mobile-display-t-footer {
   display: none;
+}
+
+.aBorder {
+  position: relative;
+  border: none;
+}
+
+.aBorder::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--black);
+  transition: width 2s ease-in-out;
+}
+
+.aBorder.is-inview::after {
+  width: 100%;
+}
+
+.aBorder-p {
+  position: relative;
+  border: none;
+}
+
+.aBorder-p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--black);
+  transition: width 2s ease-in-out;
+}
+
+.aBorder-p.p-inview::after {
+  width: 100%;
+}
+
+.aBorder-v {
+  position: relative;
+  border: none;
+}
+
+.aBorder-v::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 0%;
+  background-color: var(--black);
+  transition: height 2s ease;
+}
+
+.aBorder-v.is-inview::after {
+  height: 100%;
 }
 
 

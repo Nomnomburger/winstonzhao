@@ -29,7 +29,7 @@
 
   <body>
 
-    <div data-scroll-container>
+    <div data-scroll-container class="site">
       
       <header class="navigationBar">
         <nav class="navbar fixed-top navbar-expand-md navbar-light">
@@ -63,12 +63,14 @@
       
         <div class="cover">
           <img src="./img/initials.webp" alt="W.Z. initials" class="initials">
-          <div class="cover-shelf c-mobile">
+          <div data-scroll class="cover-shelf c-mobile aBorder">
             <div class="row g-0 mobile-display-t">
               <div class="col-8 c-name">
-                <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate">
+
+                <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate mobile-animate-t">
                   WINSTON<br>ZHAO
                 </h1>
+
               </div>
               <div class="col-4 c-age">
                 <span class="c-age-txt"><br>.................</span>
@@ -79,20 +81,20 @@
               <div class="col-12 col-md-5 c-shelf-c1 order-5 order-md-1">
                 <h3 class="small-bold mobile-display-f">Hello and welcome to my website!</h3>
                 <h2 class="thin-subhead">
-                  Student<br>Designer<br>Programmer
+                  <span data-scroll class="c-d-1 fade-in">Student</span><br><span data-scroll class="c-d-2 fade-in">Designer</span><br><span data-scroll class="c-d-3 fade-in">Programmer</span>
                 </h2>
                 <p class="paragraph cover-desc">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
               </div>
-              <div class="col-4 col-md-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-md-2"><a data-scroll-to href="#project1" class="c-shelf-label-txt">25K Website</a></div>
-              <div class="col-4 col-md-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-md-3"><a data-scroll-to href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
-              <div class="col-4 col-md-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-md-4"><a data-scroll-to href="#project3" class="c-shelf-label-txt">839 Website</a></div>
-              <div class="col-12 col-md-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-md-5"><a data-scroll-to href="#portfolio" class="c-shelf-explore">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-md-2 aBorder-v"><a data-scroll-to href="#project1" class="c-shelf-label-txt">25K Website</a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-md-3 aBorder-v"><a data-scroll-to href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-md-4 aBorder-v"><a data-scroll-to href="#project3" class="c-shelf-label-txt">839 Website</a></div>
+              <div data-scroll class="col-12 col-md-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-md-5 aBorder-v"><a data-scroll-to href="#portfolio" class="c-shelf-explore">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
             </div>
           </div>
-          <div class="c-title mobile-display-f">
+          <div data-scroll class="c-title mobile-display-f aBorder">
             <div class="row g-0">
               <div class="col-8 c-name">
-                <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate">
+                <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate mobile-animate-f">
                   <span id="animate-text">WINSTON</span>
                   <br>
                   <span id="animate-text">ZHAO</span>
@@ -106,15 +108,15 @@
         </div>
 
 
-        <div class="s-header" id="portfolio">
+        <div data-scroll class="s-header" id="portfolio">
           <div class="row">
             <div class="col-12 col-md-7">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate">
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
                 PORTFOLIO
               </h1>
             </div>
             <div class="col-0 col-md-5 s-decor-container">
-              <div class="s-decore-box">
+              <div data-scroll class="s-decore-box">
                 <hr class="s-decor d-1">
                 <hr class="s-decor d-2">
                 <hr class="s-decor d-3">
@@ -172,7 +174,7 @@
         </section>
 
 
-        <section class="p-container p-more">
+        <section class="p-container p-more project-row">
           <h2 class="thin-subhead">
             More Projects
           </h2>
@@ -182,15 +184,15 @@
         </section>
 
 
-        <div class="s-header" id="robotics">
+        <div data-scroll class="s-header" id="robotics">
           <div class="row">
             <div class="col-12 col-md-7">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate">
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
                 ROBOTICS
               </h1>
             </div>
             <div class="col-0 col-md-5 s-decor-container">
-              <div class="s-decore-box">
+              <div data-scroll class="s-decore-box">
                 <hr class="s-decor d-1">
                 <hr class="s-decor d-2">
                 <hr class="s-decor d-3">
@@ -219,28 +221,28 @@
           </div>
 
           <div class="row r-row g-0">
-            <div class="col-12 col-md-4 r-list order-2 order-md-1">
-              <h2 class="thin-subhead">
+            <div data-scroll class="col-12 col-md-4 r-list order-2 order-md-1 about-row aboutlist-container">
+              <h2 class="thin-subhead aBorder">
                 Experience
               </h2>
     
-              <div class="row p-list-row g-0 p-list-row-first">
+              <div class="row p-list-row g-0 aBorder p-list-row-first">
                 <div class="col-7 small-bold p-list-title"><a href="#">VRC Spin Up</a></div>
                 <div class="col-5 paragraph r-list-desc">Team 25K</div>
               </div>
-              <div class="row p-list-row g-0">
+              <div class="row p-list-row g-0 aBorder">
                 <div class="col-7 small-bold p-list-title"><a href="#">VRC Tipping Point</a></div>
                 <div class="col-5 paragraph r-list-desc">Team 3150A</div>
               </div>
-              <div class="row p-list-row g-0">
+              <div class="row p-list-row g-0 aBorder">
                 <div class="col-7 small-bold p-list-title"><a href="#">VRC Change Up</a></div>
                 <div class="col-5 paragraph r-list-desc">Team 839A</div>
               </div>
-              <div class="row p-list-row g-0">
+              <div class="row p-list-row g-0 aBorder">
                 <div class="col-7 small-bold p-list-title"><a href="#">VRC Tower Takeover</a></div>
                 <div class="col-5 paragraph r-list-desc">Team 839Z</div>
               </div>
-              <div class="row p-list-row g-0">
+              <div class="row p-list-row g-0 aBorder">
                 <div class="col-7 small-bold p-list-title"><a href="#">FLL Into Orbit</a></div>
                 <div class="col-5 paragraph r-list-desc">Team Polaris</div>
               </div>
@@ -296,12 +298,12 @@
         <div class="s-header" id="contact">
           <div class="row">
             <div class="col-12 col-md-7">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate">
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
                 CONTACT
               </h1>
             </div>
             <div class="col-0 col-md-5 s-decor-container">
-              <div class="s-decore-box">
+              <div data-scroll class="s-decore-box">
                 <hr class="s-decor d-1">
                 <hr class="s-decor d-2">
                 <hr class="s-decor d-3">
@@ -310,25 +312,25 @@
           </div>
         </div>
 
-        <section class="a-container">
-          <div class="row p-list-row g-0">
+        <section data-scroll class="a-container contact-row">
+          <div data-scroll class="row p-list-row g-0 aBorder-p">
             <div class="col-6 small-bold p-list-title"><a href="mailto:hello@winstonzhao.ca">Email<span class="a-list-desc">hello@winstonzhao.ca</span></a></div>
             <div class="col-6 small-bold p-list-title"><a href="https://www.instagram.com/nomnomburger_/" target="_blank">Instagram</a></div>
           </div>
-          <div class="row p-list-row g-0">
+          <div data-scroll class="row p-list-row g-0 aBorder-p">
             <div class="col-6 small-bold p-list-title"><a href="https://www.linkedin.com/in/winstonzhao-nomnomburger/" target="_blank">LinkedIn</a></div>
             <div class="col-6 small-bold p-list-title"><a href="https://twitter.com/Nomnomburger_" target="_blank">Twitter</a></div>
           </div>
-          <div class="row p-list-row g-0">
+          <div data-scroll class="row p-list-row g-0 aBorder-p">
             <div class="col-6 small-bold p-list-title"><a href="https://github.com/Nomnomburger" target="_blank">GitHub</a></div>
             <div class="col-6 small-bold p-list-title"></div>
           </div>
-          <div class="row p-list-row g-0">
+          <div data-scroll class="row p-list-row g-0 aBorder-p">
             <div class="col-6 small-bold p-list-title"></div>
             <div class="col-6 small-bold p-list-title"><a href="https://www.winstonzhao.ca/resume.pdf" target="_blank">Resume</a></div>
           </div>
 
-          <div class="row g-0 a-desc">
+          <div data-scroll class="row g-0 a-desc">
             <div class="col-12 col-md-5">
               <p class="paragraph">Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.</p>
             </div>
@@ -345,7 +347,7 @@
 
         <footer class="f-container">
           
-          <div class="f-shelf">
+          <div data-scroll class="f-shelf aBorder">
             <div class="row f-shelf-row g-0 mobile-display-t-footer">
               <div class="col-12 f-shelf-c1">
                 <p class="small-bold">©️ 2023 Winston Zhao. All rights reserved.</p>
@@ -356,10 +358,10 @@
               <div class="col-5 f-shelf-c1">
                 <p class="small-bold">©️ 2023 Winston Zhao. All rights reserved.</p>
               </div>
-              <div class="col-2 c-shelf-c2 small-bold f-shelf-label"><a href="mailto:hello@winstonzhao.ca" class="c-shelf-label-txt">EMAIL</a></div>
-              <div class="col-2 f-shelf-c3 small-bold f-shelf-label"><a href="https://www.linkedin.com/in/winstonzhao-nomnomburger/" target="_blank" class="c-shelf-label-txt">LINKEDIN</a></div>
-              <div class="col-2 f-shelf-c4 small-bold f-shelf-label"><a href="https://github.com/Nomnomburger" target="_blank" class="c-shelf-label-txt">GITHUB</a></div>
-              <div class="col-1 c-shelf-c5 small-bold f-shelf-label"><a data-scroll-to href="#start" class="c-shelf-explore"><img src="./img/initials.webp" alt="W.Z. initials" class="f-initials"></a></div>
+              <div data-scroll class="col-2 f-shelf-c2 small-bold f-shelf-label aBorder-v"><a href="mailto:hello@winstonzhao.ca" class="c-shelf-label-txt">EMAIL</a></div>
+              <div data-scroll class="col-2 f-shelf-c3 small-bold f-shelf-label aBorder-v"><a href="https://www.linkedin.com/in/winstonzhao-nomnomburger/" target="_blank" class="c-shelf-label-txt">LINKEDIN</a></div>
+              <div data-scroll class="col-2 f-shelf-c4 small-bold f-shelf-label aBorder-v"><a href="https://github.com/Nomnomburger" target="_blank" class="c-shelf-label-txt">GITHUB</a></div>
+              <div data-scroll class="col-1 f-shelf-c5 small-bold f-shelf-label aBorder-v"><a data-scroll-to href="#start" class="c-shelf-explore"><img src="./img/initials.webp" alt="W.Z. initials" class="f-initials"></a></div>
             </div>
           </div>
         </footer>
@@ -367,13 +369,20 @@
       </main>
     </div>
 
+    <script>
+
+    </script>
+
 
     <!--<script type="module" src="js/index.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script async src="js/scrollObserve.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://unpkg.com/split-type"></script>
-    <script async src="js/scrollAnimate.js"></script>
+    <script async src="js/index.js"></script>
+    <script async src="js/projectsListAnimation.js"></script>
+    <script async src="js/contactListAnimation.js"></script>
+    <script async src="js/aboutListAnimation.js"></script>
 
     
 

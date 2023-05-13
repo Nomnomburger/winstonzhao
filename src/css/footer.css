@@ -7,7 +7,6 @@
 .f-shelf {
   display: flex;
   align-items: flex-end;
-  border-bottom: 2px solid var(--black);
 }
 
 .f-shelf-row {
@@ -22,8 +21,18 @@
   align-items: flex-end;
 }
 
+.f-shelf-c2 {
+  transition: 0.5s ease;
+}
+.f-shelf-c2:hover {
+  background-color: var(--lightergray);
+  transition: 0.5s ease;
+}
+.f-shelf-c2:after {
+  transition-delay: 1s;
+}
+
 .f-shelf-c3 {
-  border-left: 2px solid var(--black);
   margin-top: 40px;
   transition: 0.5s ease;
 }
@@ -31,15 +40,32 @@
   background-color: var(--lightergray);
   transition: 0.5s ease;
 }
+.f-shelf-c3:after {
+  transition-delay: 1.2s;
+}
 
 .f-shelf-c4 {
-  border-left: 2px solid var(--black);
   margin-top: 20px;
   transition: 0.5s ease;
 }
 .f-shelf-c4:hover {
   background-color: var(--lightergray);
   transition: 0.5s ease;
+}
+.f-shelf-c4:after {
+  transition-delay: 1.4s;
+}
+
+.f-shelf-c5 {
+  transition: 0.5s ease;
+  padding-bottom: 80px;
+}
+.f-shelf-c5:hover {
+  background-color: var(--lightergray);
+  transition: 0.5s ease;
+}
+.f-shelf-c5:after {
+  transition-delay: 1.6s;
 }
 
 .f-shelf-label {

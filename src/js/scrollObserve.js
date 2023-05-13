@@ -5,25 +5,28 @@ const navLogo = document.querySelector(".nav-logo");
 
 const titleOptions = {};
 
-const titleObserver = new IntersectionObserver(
-  function(entries, titleObserver) {
-    entries.forEach(entry => {
-      //console.log(entry.target);
+setTimeout(() => {
+  const titleObserver = new IntersectionObserver(
+      function(entries, titleObserver) {
+        entries.forEach(entry => {
+          //console.log(entry.target);
 
-      if (!entry.isIntersecting) {
-        nav.classList.add("nav-scrolled");
-        navBtn.classList.add("nav-scrolled-btn");
-        navLogo.classList.add("nav-scrolled-logo");
-      }
-      else {
-        nav.classList.remove("nav-scrolled");
-        navBtn.classList.remove("nav-scrolled-btn");
-        navLogo.classList.remove("nav-scrolled-logo");
-      }
+          if (!entry.isIntersecting) {
+            nav.classList.add("nav-scrolled");
+            navBtn.classList.add("nav-scrolled-btn");
+            navLogo.classList.add("nav-scrolled-logo");
+          }
+          else {
+            nav.classList.remove("nav-scrolled");
+            navBtn.classList.remove("nav-scrolled-btn");
+            navLogo.classList.remove("nav-scrolled-logo");
+          }
 
 
-    })
-}, 
-titleOptions);
+        })
+      },
+      titleOptions);
 
-titleObserver.observe(title);
+  titleObserver.observe(title);
+} , 2600);
+
