@@ -103,6 +103,10 @@ html, body {
   clip-path: polygon(0 -10%, 100% -10%, 100% 100%, 0% 100%);
 }
 
+.animate-both {
+  opacity: 0;
+}
+
 
 .small-bold {
   font-family: 'NeueMontreal';

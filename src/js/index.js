@@ -9,6 +9,8 @@ let scrollContainer = document.querySelector("[data-scroll-container]");
 
 export var scroll;
 
+//let animationCount = 0;
+
 setTimeout(() => {
   site.classList.remove("site");
   scroll = new LocomotiveScroll({
@@ -40,15 +42,19 @@ setTimeout(() => {
     let tl= gsap.timeline();
 
     tl.to(animationText.chars, {
-      delay:0.05,
       y:0,
       stagger: 0.05,
       duration: 0.1,
       opacity: 100,
       onStart: function () {
         //console.log("Animation Finished");
+        //console.log(animateSection);
 
         animateSection.classList.remove('animate');
+        animateSection.classList.remove('animate-both');
+
+        //animationCount++;
+        //console.log(animationCount);
 
         //console.log(animateSection);
       },
