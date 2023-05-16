@@ -30,6 +30,10 @@
   color: var(--gray);
 }
 
+.a-desc-delay {
+  transition-delay: 1.8s;
+}
+
 @media screen and (max-width: 768px) {
   .a-container {
     height: min-content;

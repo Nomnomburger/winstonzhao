@@ -17,7 +17,7 @@ setTimeout(() => {
     el: scrollContainer,
     smooth: true,
     getSpeed: true,
-    multiplier: 1.1,
+    multiplier: 0.8,
 
     smartphone: {
       smooth: false,
