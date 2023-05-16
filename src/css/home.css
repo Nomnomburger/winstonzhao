@@ -175,6 +175,7 @@
 
 .s-header {
   margin: 7vw 3vw 0 3vw;
+  padding-top: 7vw;
 
 }
 
@@ -296,7 +297,6 @@
   }
   .s-header {
     padding: 50px 0px 0px 0px;
-    margin: 0 24px 0 24px; 
-    border-bottom: 2px solid var(--black);
+    margin: 0 24px 0 24px;
   }
 }
