@@ -13,7 +13,7 @@ const projectRowObserver = new IntersectionObserver(
         rowsProject.forEach((row, index) => {
           setTimeout(() => {
             row.classList.add('is-inview');
-          }, index * 50);
+          }, index * 30);
         })
       }
 

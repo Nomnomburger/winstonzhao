@@ -7,7 +7,6 @@
 .pr-desc {
   margin-top: 4vh;
   padding-bottom: 0vh;
-  border-bottom: 2px solid var(--black);
 }
 
 .pr-cover {
@@ -47,7 +46,6 @@
 .pr-double-container {
   padding-bottom: 0vh;
   margin-bottom: 0;
-  border-bottom: 2px solid var(--black);
 }
 
 .pr-desc-big-container {
@@ -99,7 +97,9 @@
 }
 
 .pr-footer {
-  margin-top: 20vh;
+
+  margin: 20vh 3vw 0px 3vw;
+  padding-bottom: 4vh;
 }
 
 @media screen and (max-width: 768px) {

@@ -109,6 +109,7 @@
   .f-shelf-c1 {
     padding-right: 0;
     border-right: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
   }
 
 }
