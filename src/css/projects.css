@@ -1,0 +1,155 @@
+.pr-year {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.pr-desc {
+  margin-top: 4vh;
+  padding-bottom: 0vh;
+}
+
+.pr-cover {
+  padding-top: 3vh;
+}
+
+.pr-btn {
+  height: 75%;
+  line-height: 50px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.pr-c-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  padding-bottom: 6vh;
+  border-bottom: 2px solid var(--black);
+}
+
+.pr-desc-big {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.pr-desc-double {
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.pr-double-container {
+  padding-bottom: 0vh;
+  margin-bottom: 0;
+}
+
+.pr-desc-big-container {
+  display: flex;
+  align-items: center; 
+}
+
+.pr-subhead {
+  line-height: 180%;
+}
+
+.pr-p1 {
+  margin-bottom: 8vh;
+}
+
+.pr-img-v {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pr-img-h {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  margin-bottom: 10vh;
+}
+
+.pr-img-h-last {
+  border-bottom: 2px solid var(--black);
+  height: 100%;
+  padding-bottom: 6vh;
+}
+
+.pr-decor {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--black);
+  color: var(--black);
+  height: 2px;
+  width: 100%;
+  opacity: 100%;
+  padding-bottom: 0;
+  margin-top: 5vh;
+
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.pr-footer {
+
+  margin: 20vh 3vw 0px 3vw;
+  padding-bottom: 4vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  .pr-btn {
+    height: 50px;
+    line-height: 30px;
+    float: left;
+  }
+  .pr-cover {
+    padding-top: 20px;
+  }
+
+  .pr-c-img {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .pr-desc-big {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 24px;
+    padding-bottom: 40px;
+  }
+  .pr-desc-double {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .pr-p1 {
+    margin: 0;
+    padding: 0;
+  }
+  .pr-overview {
+    padding-bottom: 48px
+  }
+  .pr-subhead {
+    line-height: normal;
+  }
+  .pr-img-h {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .pr-img-h-last {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .pr-double-container {
+    padding-bottom: 48px;
+  }
+}

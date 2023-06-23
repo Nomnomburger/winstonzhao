@@ -1,0 +1,31 @@
+{
+  "name": "winstonzhao",
+  "version": "1.0.0",
+  "description": "The web portfolio of Winston Zhao",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html src/portfolio/*",
+    "prod": "parcel build src/index.html src/portfolio/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomnomburger/winstonzhao.git"
+  },
+  "keywords": [
+    "Winston",
+    "Zhao"
+  ],
+  "author": "Winston Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomnomburger/winstonzhao/issues"
+  },
+  "homepage": "https://github.com/Nomnomburger/winstonzhao#readme",
+  "dependencies": {
+    "gsap": "^3.11.5",
+    "imagesloaded": "^5.0.0",
+    "locomotive-scroll": "^4.1.4",
+    "split-type": "^0.3.3"
+  }
+}
