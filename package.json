@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html src/portfolio/*",
-    "prod": "parcel build src/index.html src/portfolio/*"
+    "prod": "parcel build src/index.html src/portfolio/* --no-minify"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
     "imagesloaded": "^5.0.0",
     "locomotive-scroll": "^4.1.4",
     "split-type": "^0.3.3"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24"
   }
 }
