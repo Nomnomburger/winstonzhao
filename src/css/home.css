@@ -224,7 +224,7 @@
   transition-delay: 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .cover {
     height: min-content;
   }
@@ -299,4 +299,27 @@
     padding: 50px 0px 0px 0px;
     margin: 0 24px 0 24px;
   }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+  .s-decor-container {
+    display: none;
+  }
+  .c-age-txt {
+    font-size: 12vw;
+  }
+  .c-shelf-c2 {
+    margin-top: 50px;
+  }
+  .c-shelf-c3 {
+    margin-top: 165px;
+  }
+  .c-shelf-c4 {
+    margin-top: 122px;
+  }
+  .c-shelf-c5 {
+    margin-top: 50px;
+  }
+
 }

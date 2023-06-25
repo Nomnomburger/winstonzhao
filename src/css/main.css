@@ -381,7 +381,7 @@ html, body {
 
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
   .aBorder-c-shelf-c5 {
     position: relative;
     border: none;
@@ -405,7 +405,7 @@ html, body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .char {
     transform: translateY(50px);
   }
@@ -503,5 +503,23 @@ html, body {
     width: 100%;
     transition-delay: 0.2s;
 
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .bold-head {
+    font-size: 12vw;
+  }
+  .bold-subhead {
+    font-size: 48px;
+  }
+  .other-subhead {
+    font-size: 30px;
+  }
+  .thin-subhead {
+    font-size: 30px;
+  }
+  .cover-shelf {
+    padding-top: 20px;
   }
 }

@@ -69,7 +69,7 @@
   color: var(--gray);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .p-container {
     margin: 0px 24px 0px 24px; 
     padding-top: 20px;

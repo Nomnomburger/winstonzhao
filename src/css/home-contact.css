@@ -34,7 +34,7 @@
   transition-delay: 1.8s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .a-container {
     height: min-content;
     margin: 0px 24px 0px 24px; 

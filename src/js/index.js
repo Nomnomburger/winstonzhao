@@ -19,13 +19,17 @@ document.fonts.ready.then(() => {
       smooth: false,
       getSpeed: true,
       multiplier: 0.8,
+      reloadOnContextChange: true,
 
       smartphone: {
         smooth: false,
+        reloadOnContextChange: true,
       },
 
       tablet: {
         smooth: false,
+        breakpoint: 992,
+        reloadOnContextChange: true,
       },
     });
     scroll.on('call', () => {
@@ -76,10 +80,9 @@ document.addEventListener('lazyloaded', function(){
   scroll.update();
 });
 
-window.on('hashchange', function(e){ // listen if hashtag is being added to the URL
-
-  location.href = location.href.replace(location.hash,"") //replace it with nothing
-  console.log("bam!"); //enjoy it
-
-});
+screen.orientation.onchange = function (){
+  // logs 'portrait' or 'landscape'
+  console.log(screen.orientation.type.match(/\w+/)[0]);
+  window.location.reload();
+};
 
