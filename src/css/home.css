@@ -2,7 +2,7 @@
   height: 14vh;
   width: auto;
   margin: 1vh 0px 0px 2vw;
-  
+
 }
 
 .cover {
@@ -39,7 +39,6 @@
   transition: 0.5s ease;
 }
 .c-shelf-c2:hover {
-  background-color: var(--lightergray);
   transition: 0.5s ease;
 }
 .c-shelf-c2:after {
@@ -51,7 +50,6 @@
   transition: 0.5s ease;
 }
 .c-shelf-c3:hover {
-  background-color: var(--lightergray);
   transition: 0.5s ease;
 }
 .c-shelf-c3:after {
@@ -63,7 +61,6 @@
   transition: 0.5s ease;
 }
 .c-shelf-c4:hover {
-  background-color: var(--lightergray);
   transition: 0.5s ease;
 }
 .c-shelf-c4:after {
@@ -75,8 +72,11 @@
   padding-bottom: 80px;
 }
 .c-shelf-c5:hover {
-  background-color: var(--lightergray);
   transition: 0.5s ease;
+}
+.c-shelf-c5:hover > a {
+  color: black !important;
+  transition-delay: 0s;
 }
 .c-shelf-c5:after {
   transition-delay: 1.6s;
