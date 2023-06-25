@@ -22,41 +22,55 @@
     <link rel="stylesheet" href="./css/base.css">
 
     <link rel="icon" href="./img/favicon.ico">
-    
+
     <script src="./js/projectsListHome.js" type="text/javascript"></script>
+    <script src="./js/navigation.js" type="text/javascript"></script>
 
   </head>
 
   <body>
+
 
     <div data-scroll-container class="site">
       
       <header class="navigationBar">
         <nav class="navbar fixed-top navbar-expand-md navbar-light">
           <div class="container-fluid">
-            <a class="navbar-brand small-logo nav-logo" href="#start" data-scroll-to>
+            <a class="navbar-brand small-logo nav-logo" href="">
               WINSTON ZHAO
             </a>
-            <button class="navbar-toggler nav-buttons-m" type="button" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              MENU
+            <button class="navbar-toggler nav-buttons-m" type="button" aria-controls="navbarNav">
+              <span onclick="navSelect()" id="menu-open">MENU</span>
+              <span onclick="navSelect()" id="menu-close" class="active">CLOSE</span>
             </button>
+            <script src="./js/navigation.js"></script>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav nav-buttons">
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio" data-scroll-to>PORTFOLIO</a>
+                  <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#robotics" data-scroll-to>ROBOTICS</a>
+                  <a class="nav-link" href="#robotics">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact" data-scroll-to>@Z</a>
+                  <a class="nav-link" href="#contact">@Z</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
-      
+
+      <div class="nav-overlay" id="nav-overlay">
+        <div class="nav-o-container">
+          <ul class="nav-o-list">
+            <li><a href="#portfolio" onclick="navSelect()" class="hover-underline-animation nav-o-listitem">PORTFOLIO</a></li>
+            <li><a href="#robotics" onclick="navSelect()" class="hover-underline-animation nav-o-listitem">ABOUT</a></li>
+            <li><a href="#contact" onclick="navSelect()" class="hover-underline-animation nav-o-listitem">CONTACT</a></li>
+          </ul>
+          <p class="nav-o-listitem version">V2.26B</p>
+        </div>
+      </div>
 
 
       <main data-scroll-section id="start">
@@ -85,10 +99,10 @@
                 </h2>
                 <p data-scroll class="paragraph cover-desc fade-in c-d-5">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy web design and development, and I participate in the VEX Robotics Competition. In my free time, aside from doing schoolwork, I work on web projects, tinker around on my computer, and work on VEX Robots!</p>
               </div>
-              <div data-scroll class="col-4 col-md-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-md-2 aBorder-v"><a data-scroll-to href="#project1" class="c-shelf-label-txt">25K Website</a></div>
-              <div data-scroll class="col-4 col-md-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-md-3 aBorder-v"><a data-scroll-to href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
-              <div data-scroll class="col-4 col-md-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-md-4 aBorder-v"><a data-scroll-to href="#project3" class="c-shelf-label-txt">839 Website</a></div>
-              <div data-scroll class="col-12 col-md-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-md-5 aBorder-c-shelf-c5"><a data-scroll-to data-scroll href="#portfolio" class="c-shelf-explore fade-in c-d-1">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-md-2 aBorder-v"><a href="#project1" class="c-shelf-label-txt">25K Website</a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-md-3 aBorder-v"><a href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
+              <div data-scroll class="col-4 col-md-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-md-4 aBorder-v"><a href="#project3" class="c-shelf-label-txt">839 Website</a></div>
+              <div data-scroll class="col-12 col-md-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-md-5 aBorder-c-shelf-c5"><a data-scroll href="#portfolio" class="c-shelf-explore fade-in c-d-1">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
             </div>
           </div>
           <div data-scroll class="c-title mobile-display-f aBorder">
@@ -197,7 +211,7 @@
           <div class="row">
             <div class="col-12 col-md-7">
               <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
-                ROBOTICS
+                ABOUT ME
               </h1>
             </div>
             <div class="col-0 col-md-5 s-decor-container">
@@ -370,7 +384,7 @@
               <div data-scroll class="col-2 f-shelf-c2 small-bold f-shelf-label aBorder-v"><a href="mailto:hello@winstonzhao.ca" class="c-shelf-label-txt">EMAIL</a></div>
               <div data-scroll class="col-2 f-shelf-c3 small-bold f-shelf-label aBorder-v"><a href="https://www.linkedin.com/in/winstonzhao-nomnomburger/" target="_blank" class="c-shelf-label-txt">LINKEDIN</a></div>
               <div data-scroll class="col-2 f-shelf-c4 small-bold f-shelf-label aBorder-v"><a href="https://github.com/Nomnomburger" target="_blank" class="c-shelf-label-txt">GITHUB</a></div>
-              <div data-scroll class="col-1 f-shelf-c5 small-bold f-shelf-label aBorder-v"><a data-scroll-to href="#start" class="c-shelf-explore"><img src="./img/initials.webp" alt="W.Z. initials" class="f-initials"></a></div>
+              <div data-scroll class="col-1 f-shelf-c5 small-bold f-shelf-label aBorder-v"><a href="#start" class="c-shelf-explore"><img src="./img/initials.webp" alt="W.Z. initials" class="f-initials"></a></div>
             </div>
           </div>
         </footer>

@@ -72,7 +72,7 @@
 
 html, body {
   height: 100%;
-  
+  scroll-behavior: auto !important;
   padding: 0;
   margin: 0;
 }

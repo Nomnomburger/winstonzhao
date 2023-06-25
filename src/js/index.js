@@ -16,7 +16,7 @@ document.fonts.ready.then(() => {
     site.classList.remove("site");
     scroll = new LocomotiveScroll({
       el: scrollContainer,
-      smooth: true,
+      smooth: false,
       getSpeed: true,
       multiplier: 0.8,
 
@@ -25,20 +25,20 @@ document.fonts.ready.then(() => {
       },
 
       tablet: {
-        smooth: true,
+        smooth: false,
       },
     });
     scroll.on('call', () => {
-      let animationText = new SplitType('.animate');
+      let animationText = new SplitType('.animate.is-inview');
       let animateSection = null;
       //console.log(animationText)
 
       window.matchMedia("(max-width: 768px)").matches
-        ? animateSection = document.querySelector('.animate.mobile-animate-t, .animate.animate-both')
-        : animateSection = document.querySelector('.animate:not(.mobile-animate-t), .animate.animate-both');
+        ? animateSection = document.querySelector('.animate.mobile-animate-t.is-inview, .animate.animate-both.is-inview')
+        : animateSection = document.querySelector('.animate.is-inview:not(.mobile-animate-t), .animate.animate-both.is-inview');
 
-      console.log("Animation Section");
-      console.log(animateSection);
+      //console.log("Animation Section");
+      //console.log(animateSection);
 
       let tl= gsap.timeline();
 
@@ -74,5 +74,12 @@ imagesLoaded(scrollContainer, { background: true }, function () {
 
 document.addEventListener('lazyloaded', function(){
   scroll.update();
+});
+
+window.on('hashchange', function(e){ // listen if hashtag is being added to the URL
+
+  location.href = location.href.replace(location.hash,"") //replace it with nothing
+  console.log("bam!"); //enjoy it
+
 });
 

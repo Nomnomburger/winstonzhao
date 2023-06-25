@@ -91,6 +91,58 @@ nav {
     padding-top: 12px;
 }
 
+
+.nav-overlay {
+  position: fixed;
+  height: 100vh;
+  background: var(--white);
+  bottom: 100%;
+  width: 100%;
+  z-index: 4;
+  transition: 0.5s ease;
+}
+
+.nav-o-container {
+  padding: 25px;
+  margin-top: 200px;
+  border-bottom: 2px solid var(--black);
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 50%;
+}
+
+.nav-o-list {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+}
+.nav-o-listitem {
+  margin-bottom: 22px;
+  text-decoration: none;
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: var(--black);
+}
+.nav-o-listitem:hover {
+  color: black;
+}
+
+.version {
+  color: var(--lightgray);
+  font-size: 14px;
+}
+
+.active {
+  display: none;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
   .nav-scrolled {
     background-color: var(--white);
@@ -103,5 +155,11 @@ nav {
     margin-top: -11px;
     transition: 1s ease;
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .nav-overlay {
+    display: none;
   }
 }
