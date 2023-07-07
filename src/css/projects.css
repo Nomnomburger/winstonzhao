@@ -10,7 +10,7 @@
 }
 
 .pr-cover {
-  padding-top: 3vh;
+  margin-top: 0vh;
 }
 
 .pr-btn {
@@ -26,6 +26,7 @@
   object-fit: cover;
 
   padding-bottom: 6vh;
+
   border-bottom: 2px solid var(--black);
 }
 
@@ -104,13 +105,17 @@
 
 @media screen and (max-width: 992px) {
 
+  .pr-footer {
+    margin: 20vh 24px 0px 24px;
+  }
+
   .pr-btn {
     height: 50px;
     line-height: 30px;
     float: left;
   }
   .pr-cover {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .pr-c-img {

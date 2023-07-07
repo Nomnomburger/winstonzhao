@@ -283,7 +283,7 @@
     writing-mode: horizontal-tb;
   }
   .c-shelf-row {
-    padding-top: 14px;
+    padding-top: 44px;
   }
   .greeting-m {
     margin-bottom: 42px;
@@ -296,7 +296,7 @@
     display: none;
   }
   .s-header {
-    padding: 50px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     margin: 0 24px 0 24px;
   }
 }
