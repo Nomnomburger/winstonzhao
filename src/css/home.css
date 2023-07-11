@@ -93,6 +93,7 @@
 
 .c-name {
   display: flex;
+  height: min-content;
 }
 
 .c-age {
@@ -105,7 +106,7 @@
   font-style: normal;
   font-weight: 200;
   font-size: 18vh;
-  line-height: 90%;
+  line-height: 100%;
   float: right;
   justify-content: right;
 
@@ -322,4 +323,33 @@
     margin-top: 50px;
   }
 
+}
+
+@media screen and (max-width: 1200px) and (max-height: 900px) and (min-width: 577px) {
+  .initials {
+    height: 80px;
+  }
+  .c-shelf-c1 {
+    padding-top: 40px;
+    padding-right: 48px;
+  }
+  .c-shelf-c2 {
+    margin-top: 20px;
+  }
+  .c-shelf-c3 {
+    margin-top: 135px;
+  }
+  .c-shelf-c4 {
+    margin-top: 92px;
+  }
+  .c-shelf-c5 {
+    margin-top: 20px;
+  }
+  .c-shelf-row {
+    height: 50%;
+  }
+  .cover-desc {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }

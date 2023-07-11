@@ -189,7 +189,7 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 18vh;
-  line-height: 90%;
+  line-height: 100%;
 
   color: var(--black);
   
@@ -234,8 +234,6 @@ html, body {
 
 .other-subhead {
   font-family: 'Rader-Bold';
-  font-style: bold;
-  font-weight: 600;
   font-size: 4.8vh;
   
 
@@ -245,8 +243,6 @@ html, body {
 .small-logo {
   margin-top: 4px;
   font-family: 'Rader-Bold';
-  font-style: bold;
-  font-weight: 600;
   font-size: 1.6vh;
   /* identical to box height */
 
@@ -556,6 +552,21 @@ html, body {
     width: 100%;
     transition-delay: 0.2s;
 
+  }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 900px) and (min-width: 577px) {
+  .small-bold {
+    font-size: 15px;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .btn-primary {
+    font-size: 14px;
+  }
+  .small-logo {
+    font-size: 14px;
   }
 }
 
