@@ -1,15 +1,18 @@
 import LocomotiveScroll from 'locomotive-scroll';
 import SplitType from "split-type";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const imagesLoaded = require("imagesloaded");
 
 let site = document.querySelector(".site");
 let scrollContainer = document.querySelector("[data-scroll-container]");
+let animationText = null;
 
 export var scroll;
 
 //let animationCount = 0;
+
 
 document.fonts.ready.then(() => {
   setTimeout(() => {
@@ -32,41 +35,34 @@ document.fonts.ready.then(() => {
         reloadOnContextChange: true,
       },
     });
-    scroll.on('call', () => {
-      let animationText = new SplitType('.animate.is-inview');
-      let animateSection = null;
-      //console.log(animationText)
 
-      window.matchMedia("(max-width: 768px)").matches
-        ? animateSection = document.querySelector('.animate.mobile-animate-t.is-inview, .animate.animate-both.is-inview')
-        : animateSection = document.querySelector('.animate.is-inview:not(.mobile-animate-t), .animate.animate-both.is-inview');
 
-      //console.log("Animation Section");
-      //console.log(animateSection);
+    gsap.registerPlugin(ScrollTrigger);
 
-      let tl= gsap.timeline();
+    gsap.utils.toArray(".animate").forEach((section, index) => {
+      let heading;
+      heading = section.querySelector("span");
+      console.log(heading);
 
-      tl.to(animationText.chars, {
+      let split = new SplitType(heading);
+
+      let animation = gsap.to(split.chars, {
         y:0,
         stagger: 0.05,
         duration: 0.1,
         opacity: 100,
-        onStart: function () {
-          //console.log("Animation Finished");
-          //console.log(animateSection);
-
-          animateSection.classList.remove('animate');
-          animateSection.classList.remove('animate-both');
-
-          //animationCount++;
-          //console.log(animationCount);
-
-          //console.log(animateSection);
-        },
       })
 
+      ScrollTrigger.create({
+        trigger: section,
+        start: "top 90%",
+        toggleActions: "play none none none",
+        animation: animation,
+        markers: false,
+      });
 
-    })
+    });
+
   } , 100);
 });
 
@@ -85,4 +81,20 @@ screen.orientation.onchange = function (){
   console.log(screen.orientation.type.match(/\w+/)[0]);
   window.location.reload();
 };
+
+let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+if (isSafari) {
+  let header = document.querySelectorAll(".bold-head");
+  let age = document.querySelectorAll(".c-age-txt");
+
+  age.forEach((element) => {
+    element.classList.add("safari");
+  });
+
+  header.forEach((element) => {
+    element.classList.add("safari");
+  });
+}
+
 

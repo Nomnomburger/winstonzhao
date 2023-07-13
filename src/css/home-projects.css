@@ -16,6 +16,20 @@
   border-bottom: 2px solid var(--black);
 }
 
+.p-desc-alt {
+  padding-left: 5vw;
+  margin-top: 15%;
+}
+
+.p-desc-txt-alt {
+  margin-top: 3vh;
+}
+
+.p-row-alt {
+  border-bottom: 2px solid var(--black);
+  padding-bottom: 6vh;
+}
+
 .p-year {
   display: flex;
   align-items: flex-end;
@@ -24,6 +38,11 @@
 
 .p-btn {
   float: right;
+}
+
+.p-btn-alt {
+  float: left;
+  margin-top: 4vh;
 }
 
 .p-list-row {
@@ -81,10 +100,28 @@
     float: left;
     margin-top: 60px;
   }
+  .p-btn-alt {
+    margin-top: 60px;
+  }
+  .p-desc-alt {
+    padding-left: 0;
+    margin-top: 4vh;
+    padding-bottom: 3vh;
+  }
+  .p-row-alt {
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 0;
+  }
+  .p-desc-txt-alt {
+    margin-top: 0;
+  }
   .p-list-desc {
     display: none;
   }
   .p-more {
     padding-top: 40px;
+  }
+  .p-list-btn {
+    font-size: 14px;
   }
 }

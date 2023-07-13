@@ -5,6 +5,10 @@
 
 }
 
+.home-main {
+  scroll-snap-type: y mandatory;
+}
+
 .cover {
   height: 100vh;
 }
@@ -177,7 +181,6 @@
 .s-header {
   margin: 7vw 3vw 0 3vw;
   padding-top: 7vw;
-
 }
 
 .s-header-text {

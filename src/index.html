@@ -25,6 +25,8 @@
 
     <script src="./js/projectsListHome.js" type="text/javascript"></script>
     <script src="./js/navigation.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
 
   </head>
 
@@ -67,7 +69,7 @@
             <li><a href="#about" onclick="navSelect()" class="hover-underline-animation nav-o-listitem">ABOUT</a></li>
             <li><a href="#contact" onclick="navSelect()" class="hover-underline-animation nav-o-listitem">CONTACT</a></li>
           </ul>
-          <p class="nav-o-listitem version">V2.37B</p>
+          <p class="nav-o-listitem version">V2.38B</p>
         </div>
       </div>
 
@@ -80,9 +82,11 @@
             <div class="row g-0 mobile-display-t">
               <div class="col-8 c-name">
 
+
                 <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate mobile-animate-t">
-                  WINSTON<br>ZHAO
+                  <span>WINSTON<br>ZHAO</span>
                 </h1>
+
 
               </div>
               <div class="col-4 c-age">
@@ -92,15 +96,15 @@
             <div class="row c-shelf-row g-0">
               <h3 data-scroll class="small-bold mobile-display-t greeting-m fade-in c-d-1">Hello and welcome to my website!</h3>
               <div class="col-12 col-lg-5 c-shelf-c1 order-5 order-lg-1">
-                <h3 data-scroll class="small-bold mobile-display-f fade-in c-d-1">Hello and welcome to my website<span class="version" style="margin-left: 20px">V2.37B</span></h3>
+                <h3 data-scroll class="small-bold mobile-display-f fade-in c-d-1">Hello and welcome to my website<span class="version" style="margin-left: 20px">V2.38B</span></h3>
                 <h2 class="thin-subhead">
                   <span data-scroll class="c-d-2 fade-in">Student</span><br><span data-scroll class="c-d-3 fade-in">Designer</span><br><span data-scroll class="c-d-4 fade-in">Programmer</span>
                 </h2>
                 <p data-scroll class="paragraph cover-desc fade-in c-d-5">My name is Winston, and I am a Grade 11 Student located in Markham Ontario. I enjoy digital design and brand design. In my free time aside from doing schoolwork, I work on web projects and tinker around on my computer!</p>
               </div>
               <div data-scroll class="col-4 col-lg-2 c-shelf-c2 other-subhead c-shelf-label order-1 order-lg-2 aBorder-v"><a href="#project1" class="c-shelf-label-txt">25K Website</a></div>
-              <div data-scroll class="col-4 col-lg-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-lg-3 aBorder-v"><a href="#project2" class="c-shelf-label-txt">The Drive Team</a></div>
-              <div data-scroll class="col-4 col-lg-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-lg-4 aBorder-v"><a href="#project3" class="c-shelf-label-txt">839 Website</a></div>
+              <div data-scroll class="col-4 col-lg-2 c-shelf-c3 other-subhead c-shelf-label order-2 order-lg-3 aBorder-v"><a href="#project2" class="c-shelf-label-txt">Elapse App UI</a></div>
+              <div data-scroll class="col-4 col-lg-2 c-shelf-c4 other-subhead c-shelf-label order-3 order-lg-4 aBorder-v"><a href="#project3" class="c-shelf-label-txt">The Drive Team</a></div>
               <div data-scroll class="col-12 col-lg-1 c-shelf-c5 other-subhead c-shelf-label order-4 order-lg-5 aBorder-c-shelf-c5"><a data-scroll href="#portfolio" class="c-shelf-explore fade-in c-d-1">EXPLORE&nbsp; <span class="mobile-display-f">→</span><span class="mobile-display-t">↓</span></a></div>
             </div>
           </div>
@@ -109,10 +113,9 @@
             <div class="row g-0">
               <div class="col-8 c-name">
                 <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head animate-txt animate mobile-animate-f">
-                  <span id="animate-text">WINSTON</span>
-                  <br>
-                  <span id="animate-text">ZHAO</span>
+                  <span>WINSTON<br>ZHAO</span>
                 </h1>
+
               </div>
               <div class="col-4 c-age">
                 <span data-scroll class="c-age-txt c-d-1 fade-in"><br>.................</span>
@@ -125,8 +128,8 @@
         <div data-scroll class="s-header aBorder" id="portfolio">
           <div class="row">
             <div class="col-12 col-xl-8">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
-                PORTFOLIO
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate animate-txt">
+                <span>PORTFOLIO</span>
               </h1>
             </div>
             <div class="col-0 col-xl-4 s-decor-container">
@@ -142,9 +145,12 @@
 
 
         <section class="p-container" id="project1">
-          <div data-scroll class="roll-in-img fade-in-img">
-            <img data-scroll src="./img/portfolio/25kteam/Scene.webp" alt="Project Picture" class="p-img">
-          </div>
+          <a href="./portfolio/25kteam.html">
+            <div data-scroll class="roll-in-img fade-in-img img-hover">
+              <img data-scroll src="./img/portfolio/25kteam/Scene.webp" alt="Project Picture" class="p-img">
+            </div>
+          </a>
+
 
           <div data-scroll class="p-desc fade-in">
             <div class="row g-0">
@@ -154,7 +160,7 @@
             <div class="row g-0">
               <div class="col-12 col-lg-6">
                 <p class="paragraph">
-                  Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.
+                  The Team 25K website is a page where people interested in the Vex Robotics Competition can get information about the team, learn about the team members, and obtain contact information. The website is a single page experience with bold colours and text that represent Team 25K. Handcrafted from scratch, a simplistic design with fluid animations brings the website to life.
                 </p>
               </div>
               <div class="col-12 col-lg-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/25kteam.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
@@ -164,36 +170,46 @@
 
         </section>
         <section class="p-container" id="project2">
-          <div data-scroll class="roll-in-img fade-in-img">
-            <img data-scroll src="./img/portfolio/thedriveteam/Scene.webp" alt="Project Picture" class="p-img fade-in">
+          <div class="row g-0 p-row-alt">
+            <div class="col-12 col-lg-6">
+              <a href="./portfolio/portfolio-template.html">
+                <div data-scroll class="roll-in-img fade-in-img img-hover">
+                  <img src="./img/portfolio/elapsedesign/Scene_10.webp" alt="Project Picture" class="p-img">
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div data-scroll class="p-desc-alt fade-in">
+                <div class="row g-0">
+                  <div class="col-8"><h2 class="bold-subhead">Elapse App Design</h2></div>
+                  <div class="col-4"><h3 class="other-subhead p-year">2023</h3></div>
+                </div>
+                <div class="row g-0">
+                  <div class="col-12 col-xl-8">
+                    <p class="paragraph p-desc-txt-alt">
+                      Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.
+                    </p>
+                  </div>
+                  <div class="col-12"><a data-scroll class="btn btn-primary p-btn-alt" href="./portfolio/portfolio-template.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
+                </div>
+
+              </div>
+            </div>
           </div>
+
+        </section>
+        <section class="p-container" id="project3">
+          <a href="./portfolio/portfolio-template.html">
+            <div data-scroll class="roll-in-img fade-in-img img-hover">
+              <img data-scroll src="./img/portfolio/thedriveteam/Scene.webp" alt="Project Picture" class="p-img fade-in">
+            </div>
+          </a>
+
 
           <div data-scroll class="p-desc fade-in">
             <div class="row g-0">
               <div class="col-8"><h2 class="bold-subhead">The Drive Team Podcast</h2></div>
               <div class="col-4"><h3 class="other-subhead p-year">2022</h3></div>
-            </div>
-            <div class="row g-0">
-              <div class="col-12 col-lg-6">
-                <p class="paragraph">
-                  Lorem ipsum dolor sit amet ipsum diam nonummy sanctus consetetur nulla labore erat voluptua in voluptua rebum. Aliquyam ea sanctus duis lorem dolor ipsum ex amet ut. At et facer dolores ad ipsum hendrerit eros kasd sadipscing at at amet suscipit et at nonumy no dolor. Veniam sit in at lorem elitr eos eos hendrerit lorem takimata. Et duis magna sed ipsum consequat nihil sanctus stet blandit ipsum.
-                </p>
-              </div>
-              <div class="col-12 col-lg-6"><a data-scroll class="btn btn-primary p-btn" href="./portfolio/portfolio-template.html">CHECK IT OUT<i class="bi btn-icon bi-arrow-right"></i></a></div>
-            </div>
-
-          </div>
-
-        </section>
-        <section class="p-container" id="project3">
-          <div data-scroll class="roll-in-img fade-in-img">
-            <img src="./img/portfolio/839team/Scene.webp" alt="Project Picture" class="p-img">
-          </div>
-
-          <div data-scroll class="p-desc fade-in">
-            <div class="row g-0">
-              <div class="col-8"><h2 class="bold-subhead">Team 839 Website</h2></div>
-              <div class="col-4"><h3 class="other-subhead p-year">2021</h3></div>
             </div>
             <div class="row g-0">
               <div class="col-12 col-lg-6">
@@ -222,8 +238,8 @@
         <div data-scroll class="s-header aBorder" id="about">
           <div class="row">
             <div class="col-12 col-xl-8">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
-                ABOUT ME
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate animate-txt">
+                <span>ABOUT ME</span>
               </h1>
             </div>
             <div class="col-0 col-xl-4 s-decor-container">
@@ -245,11 +261,11 @@
             <div class="col-12 col-lg-7 r-desc-big-container">
               <div data-scroll class="r-desc-big fade-in">
                 <p class="paragraph">
-                  Hey! I’m Winston. I’m a grade 11 student in Markham Canada, currently attending Unionville High School. As a student, I am passionate about learning and exploring new things, and I love meeting new people and exploring new places. I’m passionate about digital design and I’ve worked on several projects that showcase my skills in this field. User interface and user experience design is something I’m particularly interested in as I believe that the visuals and interactions greatly affects the quality and experience of a product. In the future, I hope to pursue a career in digital design and work for a company that values creativity and innovation. I’m excited to see where my passion for digital design will take me in the future.
+                  Hi there! My name is Winston Zhao. I’m a grade 11 student attending Unionville High School in Markham Ontario. I’ve been interested in design, photography, robotics, and video production. I’m especially passionate about digital design, a world where art intersects with technology. In my free time I enjoy exploring the city on my bike, reading a good manga, and taking photos!
                   <br>
                   <br>
                   <br>
-                  Over the past few years, I’ve been learning and improving my skills at mainly UI design and brand design. The work I’ve done includes projects for clients, school clubs, and extracurricular activities. Through these projects, I’ve learned how to effectively communicate with clients and team members, how to manage my time effectively, and how to work collaboratively on projects. I’ve also learned how to take constructive criticism and use it to improve my work. I’ve also learned how to use various digital design tools such as Adobe Photoshop, Illustrator, and Figma. These tools have allowed me to create high-quality designs that are both visually appealing and functional.
+                  Over the past few years, I’ve developed a particular interest in user interface and user experience design. I believe that the visual aesthetics and human interactions of a product’s design greatly affects the resulting quality and experience. While working on projects for clients, school clubs, and extracurricular activities, I got the chance to develop my skills and learn new things, while meeting new people in the process. Thanks for taking the time to come to my website. Feel free to look around and check out my <a class="paragraph-link" href="#portfolio">portfolio</a>!
                 </p>
               </div>
             </div>
@@ -298,7 +314,7 @@
 
             </div>
             <div data-scroll class="col-12 col-lg-4 fade-in">
-              <h2 class="bold-subhead">Robotics</h2>
+              <h2 class="bold-subhead">Playground</h2>
 
               <p class="paragraph r-desc-small">
                 As an extracurricular activity and hobby, I’ve participated in competitive robotics for five years. It’s given me valuable experiences in leadership, teamwork, and problem solving. I started competing in FLL on Team Polaris, where I was introduced to competitive robotics. Then I moved to VRC on team 839, where we qualified for the world championships twice. I then moved to team 3150A, where we won the 2022 Ontario Provincial Championships and attended the world championships as a completely student run team. Finally, I started my own team, 25K, to gain new leadership experiences. We won three awards and went to the world championships as a fully student run team as well.
@@ -308,7 +324,7 @@
                 Now, I’m focusing on media and communications with projects like The Drive Team Podcast and Magazine. You can check those out in my portfolio or learn more about my competitive robotics journey below!
               </p>
 
-              <a data-scroll class="btn btn-primary r-btn" href="https://www.utm.utoronto.ca/iccit/programs/communication-culture-information-technology-ccit#:~:text=The%20CCIT%20program%20combines%20academic%20courses%20in%20the,of%20Study%20%28POSt%29%20Major%20Program%20ERMAJ1034%20CCIT%20%28Arts%29" target="_blank">LEARN MORE<i class="bi btn-icon bi-arrow-right"></i></a>
+              <a data-scroll class="btn btn-primary r-btn" href="#" target="_blank">EXPLORE<i class="bi btn-icon bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -337,8 +353,8 @@
         <div data-scroll class="s-header aBorder" id="contact">
           <div class="row">
             <div class="col-12 col-xl-8">
-              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate-txt animate animate-both">
-                CONTACT
+              <h1 id="animate" data-scroll data-scroll-call="scroll-call" class="bold-head s-header-text animate animate-txt">
+                <span>CONTACT</span>
               </h1>
             </div>
             <div class="col-0 col-xl-4 s-decor-container">

@@ -122,7 +122,7 @@ html, body {
 }
 
 .roll-in-img.is-inview::after {
-  height: 1%;
+  height: 0%;
   width: 100%;
   transition: all 1s ease;
 }
@@ -194,6 +194,9 @@ html, body {
   color: var(--black);
   
 }
+.safari {
+  margin-top: -20px;
+}
 
 .project-head {
   font-family: 'Rader-Regular';
@@ -230,6 +233,10 @@ html, body {
   line-height: 123%;
 
   color: var(--gray);
+}
+
+.paragraph-link {
+  color: var(--lightgray);
 }
 
 .other-subhead {
@@ -379,6 +386,17 @@ html, body {
   height: 100%;
 }
 
+.img-hover {
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
+}
+.img-hover img {
+  transition: transform 2s ease;
+}
+.img-hover:hover img {
+  transform: scale(1.07);
+}
 
 
 @media screen and (min-width: 993px) {
@@ -573,6 +591,12 @@ html, body {
 @media screen and (max-width: 1200px) and (min-width: 993px) {
   .bold-head {
     font-size: 12vw;
+  }
+  .project-head {
+    font-size: 12vw;
+  }
+  .project-link-thing {
+    font-size: 8vw;
   }
   .bold-subhead {
     font-size: 48px;
