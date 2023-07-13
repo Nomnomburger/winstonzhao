@@ -238,6 +238,9 @@ html, body {
 .paragraph-link {
   color: var(--lightgray);
 }
+.paragraph-link:hover {
+  color: var(--gray);
+}
 
 .other-subhead {
   font-family: 'Rader-Bold';
@@ -451,6 +454,7 @@ html, body {
   }
   .paragraph {
     font-size: 15px;
+    line-height: 150%;
   }
   .other-subhead {
     font-size: 30px;

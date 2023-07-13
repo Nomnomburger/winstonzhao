@@ -16,9 +16,9 @@ class ProjectList extends HTMLElement {
       <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#"></a></div>
     </div>
     <div class="row p-list-row g-0 aBorder just-fade">
-      <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Elapse App Design</a><span class="p-list-date">2023</span></div>
+      <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/elapsedesign.html">Elapse App Design</a><span class="p-list-date">2023</span></div>
       <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Designed Elapse, a feature packed app to help competitors at VRC events</div>
-      <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">VIEW</a></div>
+      <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/elapsedesign.html">VIEW</a></div>
     </div>
     <div class="row p-list-row g-0 aBorder just-fade">
       <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Competitive Robotics</a><span class="p-list-date">2023</span></div>
@@ -31,9 +31,9 @@ class ProjectList extends HTMLElement {
       <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">LISTEN</a></div>
     </div>
     <div class="row p-list-row g-0 aBorder just-fade">
-      <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Team 25K Website</a><span class="p-list-date">2022</span></div>
+      <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/25kteam.html">Team 25K Website</a><span class="p-list-date">2022</span></div>
       <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Landing page website made for Team 25K</div>
-      <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">VISIT</a></div>
+      <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/25kteam.html">VISIT</a></div>
     </div>
     <div class="row p-list-row g-0 aBorder just-fade">
       <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
