@@ -7,19 +7,19 @@ class ProjectList extends HTMLElement {
 
     this.innerHTML = `
       <div class="row p-list-row g-0 aBorder p-list-row-first just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">The Drive Team Magazine</a><span class="p-list-date">Upcoming</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a>The Drive Team Magazine</a><span class="p-list-date">Upcoming</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">A magazine all about the world of competitive robotics and STEM education</div>
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#"></a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Elapse VRC App</a><span class="p-list-date">Upcoming</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a>Elapse VRC App</a><span class="p-list-date">Upcoming</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Elapse, an app to make your life easier at VRC tournaments</div>
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#"></a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Competitive Robotics</a><span class="p-list-date">2023</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/robotics.html">Competitive Robotics</a><span class="p-list-date">2023</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Participated in FLL and VRC over five years</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">READ</a></div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/robotics.html">READ</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
