@@ -10,7 +10,7 @@
 }
 
 .pr-cover {
-  padding-top: 3vh;
+  margin-top: 0vh;
 }
 
 .pr-btn {
@@ -26,6 +26,7 @@
   object-fit: cover;
 
   padding-bottom: 6vh;
+
   border-bottom: 2px solid var(--black);
 }
 
@@ -102,7 +103,32 @@
   padding-bottom: 4vh;
 }
 
-@media screen and (max-width: 768px) {
+.pr-all-items {
+  padding-top: 40px;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+
+  .pr-footer {
+    margin: 20vh 24px 0px 24px;
+  }
 
   .pr-btn {
     height: 50px;
@@ -110,7 +136,7 @@
     float: left;
   }
   .pr-cover {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .pr-c-img {

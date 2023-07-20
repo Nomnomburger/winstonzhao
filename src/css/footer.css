@@ -97,7 +97,7 @@
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .f-container {
     margin: 100px 24px 0px 24px; 
     height: min-content;

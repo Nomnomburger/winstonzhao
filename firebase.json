@@ -2,6 +2,7 @@
   "hosting": {
     "site": "winstonzhao-website",
     "public": "dist",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",

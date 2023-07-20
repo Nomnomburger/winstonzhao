@@ -104,7 +104,7 @@ nav {
 
 .nav-o-container {
   padding: 25px;
-  margin-top: 200px;
+  margin-top: 20vh;
   border-bottom: 2px solid var(--black);
   margin-left: 12px;
   margin-right: 12px;
@@ -132,7 +132,7 @@ nav {
 
 .version {
   color: var(--lightgray);
-  font-size: 14px;
+  font-size: 1.4vh;
 }
 
 .active {
@@ -143,7 +143,7 @@ nav {
   overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .nav-scrolled {
     background-color: var(--white);
     transition: 1s ease;
@@ -158,8 +158,14 @@ nav {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
   .nav-overlay {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 900px) and (min-width: 577px) {
+  .nav-buttons {
+    font-size: 14px;
   }
 }

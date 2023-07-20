@@ -5,6 +5,10 @@
 
 }
 
+.home-main {
+  scroll-snap-type: y mandatory;
+}
+
 .cover {
   height: 100vh;
 }
@@ -93,6 +97,7 @@
 
 .c-name {
   display: flex;
+  height: min-content;
 }
 
 .c-age {
@@ -105,7 +110,7 @@
   font-style: normal;
   font-weight: 200;
   font-size: 18vh;
-  line-height: 90%;
+  line-height: 100%;
   float: right;
   justify-content: right;
 
@@ -176,7 +181,6 @@
 .s-header {
   margin: 7vw 3vw 0 3vw;
   padding-top: 7vw;
-
 }
 
 .s-header-text {
@@ -224,7 +228,7 @@
   transition-delay: 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .cover {
     height: min-content;
   }
@@ -283,7 +287,7 @@
     writing-mode: horizontal-tb;
   }
   .c-shelf-row {
-    padding-top: 14px;
+    padding-top: 44px;
   }
   .greeting-m {
     margin-bottom: 42px;
@@ -296,7 +300,59 @@
     display: none;
   }
   .s-header {
-    padding: 50px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+  .s-decor-container {
+    display: none;
+  }
+  .c-age-txt {
+    font-size: 12vw;
+  }
+  .c-shelf-c2 {
+    margin-top: 50px;
+  }
+  .c-shelf-c3 {
+    margin-top: 165px;
+  }
+  .c-shelf-c4 {
+    margin-top: 122px;
+  }
+  .c-shelf-c5 {
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) and (max-height: 900px) and (min-width: 577px) {
+  .initials {
+    height: 80px;
+  }
+  .c-shelf-c1 {
+    padding-top: 40px;
+    padding-right: 48px;
+  }
+  .c-shelf-c2 {
+    margin-top: 20px;
+  }
+  .c-shelf-c3 {
+    margin-top: 135px;
+  }
+  .c-shelf-c4 {
+    margin-top: 92px;
+  }
+  .c-shelf-c5 {
+    margin-top: 20px;
+  }
+  .c-shelf-row {
+    height: 50%;
+  }
+  .cover-desc {
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
