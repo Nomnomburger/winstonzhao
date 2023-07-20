@@ -22,24 +22,19 @@ class ProjectList extends HTMLElement {
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/robotics.html">READ</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/sorbackyardscrimmage.html">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Video highlighting the fun backyard scrimmage at Silver Owl Robotics</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">WATCH</a></div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/sorbackyardscrimmage.html">WATCH</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">SOR22 Robot Reveal Video</a><span class="p-list-date">2022</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/sorreveal.html">SOR22 Robot Reveal Video</a><span class="p-list-date">2022</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Cinematic video showcasing Silver Owl Robotics' 2022 robot</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">WATCH</a></div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/sorreveal.html">WATCH</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Chopocalypse Tour Website</a><span class="p-list-date">2022</span></div>
-        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">A website for DJ Usaybflow’s tour</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">VISIT</a></div>
-      </div>
-      <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">The Unionville Howl Website Design</a><span class="p-list-date">2021</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/unionvillehowl.html">The Unionville Howl Website Design</a><span class="p-list-date">2021</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">A website design for Unionville High School’s digital newspaper</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">VIEW</a></div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/unionvillehowl.html">VIEW</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Winstonzhao.ca V1</a><span class="p-list-date">2021</span></div>
