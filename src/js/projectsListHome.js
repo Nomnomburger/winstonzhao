@@ -47,9 +47,9 @@ class ProjectList extends HTMLElement {
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/839team.html">VISIT</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
-        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Asymtry Logo & Branding</a><span class="p-list-date">2020</span></div>
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/asymtry.html">Asymtry Logo & Branding</a><span class="p-list-date">2020</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Logo design and 3D art for a fun design collective</div>
-        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="#">VIEW</a></div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/asymtry.html">VIEW</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="#">Controller Deskmats</a><span class="p-list-date">2020</span></div>
