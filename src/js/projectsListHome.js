@@ -7,9 +7,24 @@ class ProjectList extends HTMLElement {
 
     this.innerHTML = `
       <div class="row p-list-row g-0 aBorder p-list-row-first just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/robotics.html">UHS Interface</a><span class="p-list-date">2023</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">UI/UX design club at Unionville High School</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/robotics.html">READ</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/elapsedesign.html">Elapse App Design</a><span class="p-list-date">2023</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Designed Elapse, a feature packed app to help competitors at VRC events</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/elapsedesign.html">VIEW</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/robotics.html">Competitive Robotics</a><span class="p-list-date">2023</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Participated in FLL and VRC over five years</div>
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/robotics.html">READ</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/thedriveteampodcast.html">The Drive Team Podcast</a><span class="p-list-date">2022</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">A fun podcast about experiences in competitive robotics</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/thedriveteampodcast.html">LISTEN</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/sorbackyardscrimmage.html">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
