@@ -13,8 +13,28 @@ export var scroll;
 
 //let animationCount = 0;
 
+let loadingPercentage = 0;
+let loading = document.getElementById('loading');
+let loadingInterval = setInterval(function() {
+  loadingPercentage++;
+  if (loadingPercentage >= 99) {
+    clearInterval(loadingInterval);
+  }
+  document.getElementById('loadingPercentage').innerText = loadingPercentage + '%';
+}, 100);
 
-document.fonts.ready.then(() => {
+// Show the loading indicator
+loading.classList.add('show');
+
+
+window.onload = function() {
+
+  clearInterval(loadingInterval);
+  document.getElementById('loadingPercentage').innerText = '100%';
+
+  // Hide the loading indicator
+  loading.classList.remove('show');
+
   setTimeout(() => {
     site.classList.remove("site");
     scroll = new LocomotiveScroll({
@@ -63,8 +83,12 @@ document.fonts.ready.then(() => {
 
     });
 
-  } , 100);
-});
+  } , 50);
+
+  setTimeout(() => {
+    loading.classList.add('displayNone');
+  } , 1000);
+};
 
 
 
@@ -96,5 +120,14 @@ if (isSafari) {
     element.classList.add("safari");
   });
 }
+
+
+
+/*window.onload = function() {
+
+
+};
+
+ */
 
 
