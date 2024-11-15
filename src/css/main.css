@@ -103,7 +103,6 @@ html, body {
   display: none;
 }
 
-
 .fade-in {
   opacity: 0;
   transition: all 1s ease;
@@ -253,7 +252,8 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 1.7vh;
-  line-height: 123%;
+  line-height: 140%;
+  text-align: justify;
 
   color: var(--gray);
 }
@@ -286,8 +286,7 @@ html, body {
 
 
 .btn-icon {
-  float: right; 
-  padding-top: 1.5px;
+  float: right;
 }
 
 
@@ -296,7 +295,7 @@ html, body {
 .btn:focus, .btn:active, .btn:hover{
     box-shadow: none!important;
     outline: 0;
-    border: 2px solid var(--lightgray);
+    border: 1.5px solid var(--lightgray);
     background: none;
     color: var(--black);
 }
@@ -307,7 +306,7 @@ html, body {
   font-weight: 400;
   font-size: 1.4vh;
   border-radius: 0;
-  border: 2px solid var(--lightgray);
+  border: 1.5px solid var(--lightgray);
   background: none;
 
   color: var(--black);
@@ -320,21 +319,21 @@ html, body {
 
   transition: all 0.5s ease;
 
-  line-height: 28px;
+  line-height: 32px;
 
 }
 
 .btn-primary:hover {
-  border: 2px solid var(--lightgray);;
+  border: 1.5px solid var(--lightgray);;
   background: var(--lightergray);
   color: var(--black);
 }
 .btn-primary:focus {
-  border: 2px solid var(--lightgray);
+  border: 1.5px solid var(--lightgray);
   background: var(--lightgray);
 }
 .btn-primary:active {
-  border: 2px solid var(--lightgray);
+  border: 1.5px solid var(--lightgray);
   background: var(--lightgray);
 }
 

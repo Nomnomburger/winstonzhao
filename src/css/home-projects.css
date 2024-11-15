@@ -6,19 +6,23 @@
 
 .p-img {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   object-fit: cover;
 }
 
 .p-desc {
   margin-top: 4vh;
-  padding-bottom: 3vh;
-  border-bottom: 2px solid var(--black);
+}
+
+.p-list-desc {
+  line-height: 123%;
 }
 
 .p-desc-alt {
   padding-left: 5vw;
-  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .p-desc-txt-alt {
@@ -43,6 +47,13 @@
 .p-btn-alt {
   float: left;
   margin-top: 4vh;
+}
+
+.p-other-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6vh
 }
 
 .p-list-row {
@@ -107,6 +118,9 @@
     padding-left: 0;
     margin-top: 4vh;
     padding-bottom: 3vh;
+  }
+  .p-desc {
+    margin-top: 12px;
   }
   .p-row-alt {
     border-bottom: 2px solid var(--black);
