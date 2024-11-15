@@ -47,11 +47,11 @@
 .r-list-desc {
   display: flex;
   justify-content: flex-end;
+  line-height: 123%;
 }
 
 .r-btn {
   float: left;
-  margin-top: 4vh;
 }
 
 .r-list-last {

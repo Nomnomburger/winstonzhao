@@ -7,9 +7,19 @@ class ProjectList extends HTMLElement {
 
     this.innerHTML = `
       <div class="row p-list-row g-0 aBorder p-list-row-first just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a>Heatmap.com Redesign</a><span class="p-list-date">2024</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Internship @ Full Sprint Studio</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a>COMING SOON</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/uhsinterface.html">UHS Interface</a><span class="p-list-date">2023</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">UI/UX design club at Unionville High School</div>
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/uhsinterface.html">READ</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/uhsrobotics.html">UHS Robotics Media</a><span class="p-list-date">2023</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Branding and media for the UHS Robotics Team</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/elapsedesign.html">VIEW</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/elapsedesign.html">Elapse App Design</a><span class="p-list-date">2023</span></div>
@@ -25,6 +35,11 @@ class ProjectList extends HTMLElement {
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/thedriveteampodcast.html">The Drive Team Podcast</a><span class="p-list-date">2022</span></div>
         <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">A fun podcast about experiences in competitive robotics</div>
         <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/thedriveteampodcast.html">LISTEN</a></div>
+      </div>
+      <div class="row p-list-row g-0 aBorder just-fade">
+        <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/25kteam.html">Team 25K Website</a><span class="p-list-date">2022</span></div>
+        <div class="col-0 col-xl-5 col-lg-6 paragraph p-list-desc">Landing page website made for Team 25K</div>
+        <div class="col-2 col-lg-1 small-bold p-list-btn"><a href="../portfolio/25kteam.html">VISIT</a></div>
       </div>
       <div class="row p-list-row g-0 aBorder just-fade">
         <div class="col-10 col-xl-6 col-lg-5 small-bold p-list-title"><a href="../portfolio/sorbackyardscrimmage.html">SOR Backyard Scrimmage Video</a><span class="p-list-date">2022</span></div>
