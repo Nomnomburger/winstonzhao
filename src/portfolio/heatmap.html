@@ -171,11 +171,251 @@
                   <li>Comprehensive Feature Audit: Mapped out every feature and its location in the portal.</li>
                   <li>Information Architecture Review: Assessed the hierarchical structure of pages and sections.</li>
                   <li>Navigation Pattern Analysis: Noted user pathways and identified bottlenecks.</li>
+                  <li>Visual Consistency Check: Evaluated UI elements for brand alignment (where they existed).</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">Key Findings</span>
+                </p>
+
+                <ol class="pr-maxwidth paragraph-list">
+                  <li>Scattered Features: Users had to jump between multiple, unconnected sections for related insights.</li>
+                  <li>Inconsistent UI Patterns: New feature additions led to mismatched button styles, card layouts, and icons.</li>
+                  <li>Navigation Bottlenecks: Switching between heatmap views or applying filters took multiple steps.</li>
                   <li>Limited Scalability: The existing structure was not well suited to handle a growing array of features.</li>
+                </ol>
+
+
+              </div>
+
+              <div data-scroll class="paragraph pr-desc-single pr-cs fade-in">
+
+                <p class="pr-maxwidth">
+                  <span class="thin-subhead pr-subhead">3. Design Process</span>
+                  <br>
+                  <br>
+                  With a tight timeline ahead, I needed to move efficiently. Drawing inspiration from Heatmap's public preview page—which showcased their modern visual direction—I began sketching out solutions. Instead of getting caught in lengthy wireframing cycles, we made the bold decision to jump straight from low-fidelity sketches to high-fidelity designs.
+                  <br>
+                  <br>
+                  <span class="subhead pr-subhead">3.1 Goals</span>
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Establish a Cohesive Design System: Ensure visual and functional consistency across features.</li>
+                  <li>Improve Navigation & Feature Discoverability: Simplify how users move between different toolsets (heatmaps, screen recordings, AI insights).</li>
+                  <li>Streamline Workflow: Reduce unnecessary clicks, unify related features, and present data more clearly.</li>
+                  <li>Maintain Familiarity: Provide a smooth transition for existing users so they can quickly adapt.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">3.2 Design Foundation</span>
+                  <br>
+                  <br>
+                  A pivotal reference point was an existing public preview page, approved by stakeholders, that showcased a modernized color palette and typography. By applying this established visual style consistently throughout the platform, the redesign aimed to unify existing features, accommodate new ones, and keep the interface intuitive.
+                </p>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">3.3 Wireframing & Prototyping</span>
+                </p>
+
+                <ol class="pr-maxwidth paragraph-list">
+                  <li>Low-Fidelity Wireframes: I started by sketching rough layouts for the navbar, dashboard, and key pages. This helped clarify the overall structure and key user flows.</li>
+                  <li>Direct Jump to High-Fidelity: Due to a tighter timeline, we skipped the medium-fidelity stage. After reviewing the low-fidelity concepts with colleagues, I iterated directly in high-fidelity wireframes to refine visuals, layout, and components.</li>
+                  <li>Advanced Figma Prototype: I built a fully interactive and size-responsive prototype in Figma, leveraging Auto Layout to ensure components and pages could scale or reflow easily. This prototype included:
+                    <ul>
+                      <li>Clickable navigation elements</li>
+                      <li>FUll-page transitions</li>
+                      <li>Interactive filters and tabs for heatmaps and recordings</li>
+                      <li>Responsive breakpoints to demonstrate adaptability</li>
+                    </ul>
+                  </li>
+                  <li>Final Stakeholder Presentation: I presented the high-fidelity prototype to the Full Sprint and Heatmap team. Early feedback was generally positive, though Heatmap highlighted certain areas as needing additional refinement.</li>
+                </ol>
+
+
+              </div>
+
+
+              <div data-scroll class="paragraph pr-desc-single pr-cs fade-in">
+
+                <p class="pr-maxwidth">
+                  <span class="thin-subhead pr-subhead">4. Design Solutions</span>
+                  <br>
+                  <br>
+                  <span class="subhead pr-subhead">4.1 Navbar Redesign</span>
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Primary Color Emphasis: Adopted the standout color from the public preview page for brand consistency.</li>
+                  <li>Simplified, Collapsible Navigation: Consolidated links for the dashboard, heatmaps, screen recordings, and settings into a clear, collapsible menu.</li>
+                  <li>Pinned Items: Introduced a dedicated area for pinned heatmaps or screen recordings, providing quick access to frequently analyzed data.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Anticipated Outcome: A more intuitive, consistent navbar that reduces clutter and highlights frequently used features.
+                </p>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">4.2 Dashboard Improvements</span>
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>At-a-Glance Visuals: Enhanced summary charts with x- and y-axis labels, data markers, and tooltips.</li>
+                  <li>Key Metrics: Surfaced essential performance metrics (e.g., total clicks, conversion rates) in a card-based layout at the top.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Anticipated Outcome: A quick overview of site performance that doesn’t overwhelm users, with room for future expansions.
+                </p>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">4.3 Heatmaps Section Overhaul</span>
+                </p>
+                
+                <p class="pr-maxwidth">
+                  List Page
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Full-Page List View: Eliminated the cramped list that was in the navbar by dedicating a full page to browsing heatmaps.</li>
+                  <li>Expandable Rows: Incorporated metadata like device type, date range, and tags without cluttering the primary list view.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Heatmap Viewer
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Clean Data Cards: When clicking on hotspots, the pop-up cards clearly display click counts and percentages.</li>
+                  <li>Separated Controls: Grouped filters, device switcher (desktop, mobile, tablet), and mode toggles (data vs. interactive) at the top.</li>
+                  <li>Tabbed Layout: Introduced tabs for Heatmap View, Scrollmap View, and Data Table, improving the information architecture.</li>
+                  <li>AI Insights Integration: Partnered with a colleague to incorporate automated insights on user behavior.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Anticipated Outcome: A flexible, all-encompassing space for analyzing heatmap data, with a cleaner layout that reduces user confusion.
+                </p>
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">4.4 Screen Recordings Refresh</span>
+                </p>
+                
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Consistent Visual Language: Unified fonts, colors, and buttons with the rest of the new design.</li>
+                  <li>Dedicated List View: Introduced clearer pagination, sorting, and filtering of session recordings.</li>
+                  <li>Enhanced Viewer: Presented recording metadata (e.g., session duration, user location) alongside the playback to offer broader context.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Anticipated Outcome: An easier way to locate and review session recordings, maintaining visual consistency with other sections.
+                </p>
+
+
+                <p class="pr-maxwidth">
+                  <span class="subhead pr-subhead">4.5 Kaitlyn’s Journey - Real World Example</span>
+                </p>
+
+                <p class="pr-maxwidth">
+                  To illustrate how these design changes come together, meet Kaitlyn, a marketing specialist for a small organic skincare e-commerce store.
+                </p>
+                
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Collapsible Navigation & Pinned Items
+                    <ul>
+                      <li>Use Case: Kaitlyn logs into the Heatmap portal to track performance after running a new campaign.</li>
+                      <li>Before: She had to click through disjointed menus to get to her most-used heatmaps.</li>
+                      <li>Now: She immediately notices the collapsible navigation on the left. It’s clearly labeled, paired with an icon, and streamlined. Below the tabs is the Pinned section, where she’s added her newly launched “Rose Glow Serum” heatmap. She clicks it to jump straight into analysis—no more hunting through multiple tabs.</li>
+                    </ul>
+                  </li>
+                  <li>Heatmaps Section Overhaul
+                    <ul>
+                      <li>Use Case: Kaitlyn needs to identify user interaction hotspots for the new product page.</li>
+                      <li>Before: Navigating to the heatmap was difficult in the cramped sidebar, data visibility controls were scattered.</li>
+                      <li>Now: She clicks “Heatmaps” in the simplified nav, landing on a full-page list view of all her site’s heatmaps. She opens the “Rose Glow Serum” heatmap, and a clean data card pops up when she clicks on the hotspots, showing precise click counts and percentages. The separated controls at the top allow her to toggle device type or filter date ranges without losing her place. The new tabs to switch between heatmap, scrollmap, and data table means she know where to find the data she is looking for.</li>
+                    </ul>
+                  </li>
+                  <li>Screen Recordings Refresh
+                    <ul>
+                      <li>Use Case: Kaitlyn wants to watch real user sessions to see how visitors scroll and click around the product page.</li>
+                      <li>Before: The session recordings panel was visually inconsistent, and recordings were hard to sift through.</li>
+                      <li>Now: She heads over to Screen Recordings, where a dedicated list view with filtering lets her quickly find recordings tagged “Rose Glow Serum.” The enhanced viewer displays session duration, user device, and location information right alongside the playback. Kaitlyn notices several users never hover over the “Add to Cart” button—confirming the heatmap analysis and AI insights.</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Takeaway
+                </p>
+
+                <p class="pr-maxwidth">
+                  By guiding Kaitlyn through these key tasks, the redesigned portal addresses her specific pain points: scattered features, inconsistent UI patterns, and difficulty in quickly synthesizing user behavior data. Having everything organized under the new navigation system, with pinned items for rapid access, empowers Kaitlyn to make informed decisions about layout adjustments—ultimately enhancing the user experience on her e-commerce site.
+                </p>
+
+              </div>
+
+
+              <div data-scroll class="paragraph pr-desc-single pr-cs fade-in">
+
+                <p class="pr-maxwidth">
+                  <span class="thin-subhead pr-subhead">5. Feedback & Next Steps</span>
+                  <br>
+                  <br>
+                  Although the redesign did not reach full implementation during my internship:
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Initial Internal Reactions: Stakeholders and team members responded positively to the unified visual style and simplified navigation.</li>
+                  <li>Constructive Critiques: Toward the end of my internship, certain aspects—like the pinning mechanism’s discoverability and the default dashboard layout—were called out for needing refinement.</li>
+                  <li>Testing Plans: True user testing and broader data-driven validation are pending implementation in a future development cycle.</li>
                 </ul>
 
 
               </div>
+
+              <div data-scroll class="paragraph pr-desc-single pr-cs fade-in">
+
+                <p class="pr-maxwidth">
+                  <span class="thin-subhead pr-subhead">6. Reflections</span>
+                  <br>
+                  <br>
+                  This project taught me valuable lessons about balancing familiarity with innovation, designing for future growth, and working within time constraints. While I couldn't see the project through to implementation, I left knowing we had created a solid foundation for Heatmap's future growth.
+                </p>
+
+                <p class="pr-maxwidth">
+                  Challenges
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Familiarity vs. Change: Balancing a recognizable interface for existing users with introducing innovative layouts.</li>
+                  <li>Scalability: Ensuring designs support future features—like extended AI insights—without overcomplicating the structure.</li>
+                  <li>Research Data: The smaller scaled company and limited resources meant user testing prior to the redesign could not be collected.</li>
+                  <li>Time Constraints: The internship timeline meant I could not see the project through full user testing or final implementation.</li>
+                </ul>
+
+                <p class="pr-maxwidth">
+                  Future Opportunities
+                </p>
+
+                <ul class="pr-maxwidth paragraph-list">
+                  <li>Refine Pinning & Dashboard Configuration: Provide ways for users to customize pinning and dashboard widgets to match their specific analytics needs.</li>
+                  <li>Deeper User Testing: Gather feedback through usability studies once the redesign is live, then iterate based on real-world insights.</li>
+                </ul>
+
+
+              </div>
+
+              <div data-scroll class="paragraph pr-desc-single pr-cs fade-in">
+
+                <p class="pr-maxwidth">
+                  <span class="thin-subhead pr-subhead">Conclusion</span>
+                  <br>
+                  <br>
+                  By applying a new visual style and carefully reorganizing Heatmap’s navigation and data presentation, this redesign aims to streamline how users interact with heatmaps, screen recordings, and AI-driven insights. While fully implementing and testing these updates remains a future task, the positive initial response from Heatmap.com’s internal team and the constructive critiques offer a solid starting point for iterative improvement.
+                </p>
+
+              </div>
+
+
             </div>
           </div>
 
