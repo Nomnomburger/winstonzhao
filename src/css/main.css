@@ -197,6 +197,15 @@ html, body {
   color: var(--black);
 }
 
+.subhead {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+
+  color: var(--black);
+}
+
 .bold-subhead {
   font-family: 'Rader-Regular';
   font-style: normal;
@@ -256,6 +265,10 @@ html, body {
   text-align: justify;
 
   color: var(--gray);
+}
+
+.paragraph-list {
+  text-align: left !important;
 }
 
 .paragraph-link {
@@ -454,6 +467,9 @@ html, body {
   .thin-subhead {
     font-size: 30px;
   }
+  .subhead {
+    font-size: 16px;
+  }
   .bold-subhead {
     font-size: 40px;
   }
@@ -501,6 +517,9 @@ html, body {
   }
   .thin-subhead {
     font-size: 40px;
+  }
+  .subhead {
+    font-size: 24px;
   }
   .bold-subhead {
     font-size: 50px;
@@ -632,6 +651,9 @@ html, body {
   }
   .thin-subhead {
     font-size: 30px;
+  }
+  .subhead {
+    font-size: 18px;
   }
   .cover-shelf {
     padding-top: 20px;
